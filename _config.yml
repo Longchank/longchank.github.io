@@ -41,7 +41,8 @@ plainwhite:
 # - work.md
 collections_dir: collections
 collections:
-  - portfolio
+  portfolio:
+    output: true
   - posts
 # Build settings
 theme: plainwhite
