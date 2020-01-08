@@ -11,30 +11,15 @@ layout: default
 {%- if site.posts.size > 0 -%}
   <ul class="posts">
     <li>
-      <h1 id="posts-label">posts</h1>
+      <h1 id="posts-label">work</h1>
     </li>
 
     {%- for post in site.posts -%}
       <li>
         {%- assign date_format = site.plainwhite.date_format | default: "%b %-d, %Y" -%}
         <a class="post-link" href="{{ post.url | relative_url }}">
-          <div class="cover-image" style="background: url({{"/assets" | append : post.img}}) center no-repeat; background-size: cover;"></div>
+          <div class="cover-image" style="background: url({{"/assets/" | append : post.img}}) center no-repeat; background-size: cover;"></div>
         </a>
-        <div class="post-meta">
-          <ul class="post-categories">
-            {%- for tag in post.categories -%}
-              <li>{{ tag }}</li>
-            {%- endfor -%}
-          </ul>
-          <div class="post-date">
-            <i class="icon-calendar"></i>
-            {{ post.date | date: date_format }}</div>
-        </div>
-        <div class="post">
-          {%- if site.show_excerpts -%}
-            {{ post.excerpt }}
-          {%- endif -%}
-        </div>
       </li>
     {%- endfor -%}
   </ul>
