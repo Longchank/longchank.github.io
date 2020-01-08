@@ -3,23 +3,43 @@ layout: default
 ---
 
 {%- if page.title -%}
-<h1 class="page-heading">{{ page.title }}</h1>
-{%- endif -%} {{ content }} {%- if site.work.size > 0 -%}
-<ul class="post">
-  <li>
-    <h1 id="post-label">works</h1>
-  </li>
+  <h1 class="page-heading">{{ page.title }}</h1>
+{%- endif -%}
 
-  {%- for work in site.work -%}
-  <li>
-    <a href="{{ work.url | relative_url }}">
-      <img src="{{ "work.icon" | relative_url }}"></a
-    >
-  </li>
-  {%- endfor -%}
-</ul>
+{{ content }}
 
-<!-- <p class="feed-subscribe"><svg class="svg-icon orange">
+{%- if site.posts.size > 0 -%}
+  <ul class="posts">
+    <li>
+      <h1 id="posts-label">posts</h1>
+    </li>
+
+    {%- for post in site.posts -%}
+      <li>
+        {%- assign date_format = site.plainwhite.date_format | default: "%b %-d, %Y" -%}
+        <a class="post-link" href="{{ post.url | relative_url }}">
+          <div class="cover-image" style="background: url({{"/assets" | append : post.img}}) center no-repeat; background-size: cover;"></div>
+        </a>
+        <div class="post-meta">
+          <ul class="post-categories">
+            {%- for tag in post.categories -%}
+              <li>{{ tag }}</li>
+            {%- endfor -%}
+          </ul>
+          <div class="post-date">
+            <i class="icon-calendar"></i>
+            {{ post.date | date: date_format }}</div>
+        </div>
+        <div class="post">
+          {%- if site.show_excerpts -%}
+            {{ post.excerpt }}
+          {%- endif -%}
+        </div>
+      </li>
+    {%- endfor -%}
+  </ul>
+
+  <!-- <p class="feed-subscribe"><svg class="svg-icon orange">
 		<use xlink:href="{{ '/assets/minima-social-icons.svg#rss' | relative_url }}"></use>
 	</svg><a href="{{ "/feed.xml" | relative_url }}">Subscribe</a></p> -->
 {%- endif -%}

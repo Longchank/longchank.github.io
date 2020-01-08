@@ -15,7 +15,7 @@ plainwhite:
   date_format: "%b %-d, %Y"
   sitemap: true # set to true to generate sitemap.xml content
   navigation:
-    - title: My Work
+    - title: Portfolio
       url: "/work"
   # generate social links in footer
   social_links:
