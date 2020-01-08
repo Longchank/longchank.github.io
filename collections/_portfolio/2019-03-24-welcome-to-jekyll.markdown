@@ -1,4 +1,5 @@
 ---
+layout: post
 title: "Meow"
 date: 2019-03-24 21:03:36 +0530
 categories: Portfolio
