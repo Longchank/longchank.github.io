@@ -4,21 +4,18 @@ layout: default
 
 {% for workt in site.portfolio %} {%- assign date_format =
 site.plainwhite.date_format | default: "%b %-d, %Y" -%}
-<div class="post-container">
-  <a class="post-link" href="{{ workt.url | relative_url }}">
-    <h2 class="post-title">{{ workt.title | escape }}</h2>
+<div class="workt-container">
+  <a class="workt-link" href="{{ workt.url | relative_url }}">
+    <h2 class="workt-title">{{ workt.title | escape }}</h2>
   </a>
-  <div class="post-meta">
-    <ul class="post-categories">
+  <div class="workt-meta">
+    <ul class="workt-categories">
       {%- for tag in workt.categories -%}
       <li>{{ tag }}</li>
       {%- endfor -%}
     </ul>
-    <div class="post-date">
-      <i class="icon-calendar"></i>{{ workt.date | date: date_format }}
-    </div>
   </div>
-  <div class="post">
+  <div class="workt">
     {{ workt.content }}
   </div>
 </div>
