@@ -3,6 +3,9 @@ layout: default
 ---
 
 <div class="portfolio-container">
+  <li>
+    <h1 id="posts-label">portfolio</h1>
+  </li>
   {% for post in site.portfolio %}
   <div class="portfolio-item">
     <a href="{{ post.url | relative_url }}"
