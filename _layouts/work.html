@@ -6,7 +6,6 @@ layout: default
   <h1 class="page-heading">{{ page.title }}</h1>
 {%- endif -%}
 
-{{ content }}
 
 {%- if site.posts.size > 0 -%}
   <ul class="posts">
@@ -17,9 +16,9 @@ layout: default
     {%- for post in site.posts -%}
       <li>
         {%- assign date_format = site.plainwhite.date_format | default: "%b %-d, %Y" -%}
-        <a class="post-link" href="{{ post.url | relative_url }}">
-          <div class="cover-image" style="background: url({{"append : post.img"}}) center no-repeat; background-size: cover;"></div>
-        </a>
+      
+          <div class="cover-image" style="background: url({{"/assets/" | prepend: site.baseurl | append : post.img}}) center no-repeat; background-size: cover;"></div>
+      
       </li>
     {%- endfor -%}
   </ul>
