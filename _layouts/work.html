@@ -18,7 +18,7 @@ layout: default
       <li>
         {%- assign date_format = site.plainwhite.date_format | default: "%b %-d, %Y" -%}
         <a class="post-link" href="{{ post.url | relative_url }}">
-          <div class="cover-image" style="background: url({{"/assets/" | append : post.img}}) center no-repeat; background-size: cover;"></div>
+          <div class="cover-image" style="background: url({{"append : post.img"}}) center no-repeat; background-size: cover;"></div>
         </a>
       </li>
     {%- endfor -%}
