@@ -1,28 +1,25 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    {%- include head.html -%}
-  </head>
-  <body>
-    <main class="container">
-      <section class="content">
-        {{ content }}
-      </section>
-    </main>
-    {%- if site.plainwhite.analytics_id -%}
-    <script
-      async
-      src="https://www.googletagmanager.com/gtag/js?id={{ site.plainwhite.analytics_id }}"
-    ></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag() {
-        dataLayer.push(arguments);
-      }
-      gtag("js", new Date());
+---
+layout: default
+---
 
-      gtag("config", "{{ site.plainwhite.analytics_id }}");
-    </script>
-    {%- endif -%}
-  </body>
-</html>
+{%- if page.title -%}
+<h1 class="page-heading">{{ page.title }}</h1>
+{%- endif -%} {{ content }} {%- if site.work.size > 0 -%}
+<ul class="work">
+  <li>
+    <h1 id="work-label">works</h1>
+  </li>
+
+  {%- for work in site.work -%}
+  <li>
+    <a href="{{ work.url | relative_url }}">
+      <img src="{{ "work.icon" | relative_url }}"></a
+    >
+  </li>
+  {%- endfor -%}
+</ul>
+
+<!-- <p class="feed-subscribe"><svg class="svg-icon orange">
+		<use xlink:href="{{ '/assets/minima-social-icons.svg#rss' | relative_url }}"></use>
+	</svg><a href="{{ "/feed.xml" | relative_url }}">Subscribe</a></p> -->
+{%- endif -%}
