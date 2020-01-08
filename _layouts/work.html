@@ -8,6 +8,10 @@ site.plainwhite.date_format | default: "%b %-d, %Y" -%}
   <a class="post-link" href="{{ post.url | relative_url }}">
     <h2 class="post-title">{{ post.title | escape }}</h2>
   </a>
+  <a href="/"
+    ><img src="{{ "/assets/img/" | relative_url | append: post.img }}" alt="{{
+    site.plainwhite.name }}"></a
+  >
   <div class="post-meta">
     <ul class="post-categories">
       {%- for tag in post.categories -%}
@@ -16,7 +20,7 @@ site.plainwhite.date_format | default: "%b %-d, %Y" -%}
     </ul>
   </div>
   <div class="post">
-    {{ post.content }}
+    {{ content }}
   </div>
 </div>
 {% endfor %}
