@@ -5,20 +5,10 @@ layout: default
 {% for post in site.portfolio %} {%- assign date_format =
 site.plainwhite.date_format | default: "%b %-d, %Y" -%}
 <div class="post-container">
-  <a class="post-link" href="{{ post.url | relative_url }}">
-    <h2 class="post-title">{{ post.title | escape }}</h2>
-  </a>
-  <a href="/"
+  <a href="{{ post.url | relative_url }}"
     ><img src="{{ "/assets/img/" | relative_url | append: post.img }}" alt="{{
     site.plainwhite.name }}"></a
   >
-  <div class="post-meta">
-    <ul class="post-categories">
-      {%- for tag in post.categories -%}
-      <li>{{ tag }}</li>
-      {%- endfor -%}
-    </ul>
-  </div>
   <div class="post">
     {{ content }}
   </div>
