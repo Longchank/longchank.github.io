@@ -228,6 +228,10 @@ main {
     padding: 0 !important;
     margin-top: 0;
   }
+  @media screen and (max-width: $bigScreenW) {
+    margin-left: 2vw;
+    margin-top: 10vh;
+  }
 }
 .post {
   font-family: "Merriweather", sans-serif;
