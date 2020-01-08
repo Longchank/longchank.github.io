@@ -2,10 +2,10 @@
 layout: default
 ---
 
-{%- if page.title -%} {% for work in site.portfolio %}
+{%- if page.title -%} {% for workt in site.portfolio %}
 <h2>
-  <a href="{{ work.url }}">
-    {{ work.name }} - {{ work.position }}
+  <a href="{{ workt.url }}">
+    {{ workt.name }} - {{ workt.position }}
   </a>
 </h2>
 <p>{{ work.content | markdownify }}</p>

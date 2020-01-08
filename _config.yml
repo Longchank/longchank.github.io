@@ -37,7 +37,8 @@ plainwhite:
 # this and add the path to the pages in order as they should show up
 #header_pages:
 # - work.md
-
+collections_dir: collections
+collections: portfolio
 # Build settings
 theme: plainwhite
 
