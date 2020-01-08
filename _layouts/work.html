@@ -2,7 +2,7 @@
 layout: default
 ---
 
-{%- if page.title -%} {% for workt in site.portfolio %}
+{% for workt in site.portfolio %}
 <h2>
   <a href="{{ workt.url }}">
     {{ workt.name }} - {{ workt.position }}
@@ -10,8 +10,3 @@ layout: default
 </h2>
 <p>{{ workt.content | markdownify }}</p>
 {% endfor %}
-
-<!-- <p class="feed-subscribe"><svg class="svg-icon orange">
-		<use xlink:href="{{ '/assets/minima-social-icons.svg#rss' | relative_url }}"></use>
-	</svg><a href="{{ "/feed.xml" | relative_url }}">Subscribe</a></p> -->
-{%- endif -%}

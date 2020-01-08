@@ -38,7 +38,8 @@ plainwhite:
 #header_pages:
 # - work.md
 collections_dir: collections
-collections: portfolio
+collections:
+  - portfolio
 # Build settings
 theme: plainwhite
 
