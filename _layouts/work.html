@@ -2,14 +2,13 @@
 layout: default
 ---
 
-{% for post in site.portfolio %} {%- assign date_format =
-site.plainwhite.date_format | default: "%b %-d, %Y" -%}
-<div class="post-container">
+{% for post in site.portfolio %}
+<div class="portfolio-container">
   <a href="{{ post.url | relative_url }}"
     ><img src="{{ "/assets/img/" | relative_url | append: post.img }}" alt="{{
     site.plainwhite.name }}"></a
   >
-  <div class="post">
+  <div class="portfolio">
     {{ content }}
   </div>
 </div>
