@@ -1,15 +1,43 @@
----
-layout: default
----
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    {%- include head.html -%}
+  </head>
+  <body>
+    <main class="container">
+      <section class="about">
+        {%- if site.plainwhite.navigation -%}
+        <nav class="navigation">
+          <ul>
+            {% for link in site.plainwhite.navigation %}
+            <li>
+              <a href="{{ link.url }}">{{ link.title }}</a>
+            </li>
+            {% endfor %}
+          </ul>
+        </nav>
+        {%- endif -%}
 
-{%- assign date_format = site.plainwhite.date_format | default: "%b %-d, %Y" -%}
-<div class="work-container">
-  <a href="{{ page.url | relative_url }}"
-    ><img src="{{page.icon}}" alt="{{ site.plainwhite.name }}"
-  /></a>
-  <div class="work-meta">
-    <div class="work-date">
-      <i class="icon-calendar"></i>{{ page.date | date: date_format }}
-    </div>
-  </div>
-</div>
+        <p>&copy; {{ "now" | date: "%Y" }}</p>
+      </section>
+      <section class="content">
+        {{ content }}
+      </section>
+    </main>
+    {%- if site.plainwhite.analytics_id -%}
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id={{ site.plainwhite.analytics_id }}"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "{{ site.plainwhite.analytics_id }}");
+    </script>
+    {%- endif -%}
+  </body>
+</html>
