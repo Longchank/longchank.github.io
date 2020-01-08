@@ -42,9 +42,10 @@ plainwhite:
 collections_dir: collections
 collections:
   portfolio:
-    output: "true"
+    output: true
   posts:
-    output: "false"
+    output: true
+
 # Build settings
 theme: plainwhite
 
