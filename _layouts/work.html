@@ -5,9 +5,9 @@ layout: default
 {%- if page.title -%}
 <h1 class="page-heading">{{ page.title }}</h1>
 {%- endif -%} {{ content }} {%- if site.work.size > 0 -%}
-<ul class="work">
+<ul class="post">
   <li>
-    <h1 id="work-label">works</h1>
+    <h1 id="post-label">works</h1>
   </li>
 
   {%- for work in site.work -%}
