@@ -4,15 +4,15 @@ layout: default
 
 {%- assign date_format = site.plainwhite.date_format | default: "%b %-d, %Y" -%}
 <div class="work-container">
-  <a class="work-link" href="{{ page.url | relative_url }}">
-    <img class="work-img">{{page.icon}}</img>
-  </a>
-  <div class="post-meta">
-    <div class="post-date">
+  <a href="{{ page.url | relative_url }}"
+    ><img src="{{page.icon}}" alt="{{ site.plainwhite.name }}"
+  /></a>
+  <div class="work-meta">
+    <div class="work-date">
       <i class="icon-calendar"></i>{{ page.date | date: date_format }}
     </div>
   </div>
-  <div class="post">
+  <div class="work">
     {{ content }}
   </div>
 </div>
