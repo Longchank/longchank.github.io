@@ -2,14 +2,14 @@
 layout: default
 ---
 
-{% for post in site.portfolio %}
 <div class="portfolio-container">
-  <a href="{{ post.url | relative_url }}"
-    ><img src="{{ "/assets/img/" | relative_url | append: post.img }}" alt="{{
-    site.plainwhite.name }}"></a
-  >
-  <div class="portfolio">
-    {{ content }}
+  {% for post in site.portfolio %}
+  <div class="portfolio-item">
+    <a href="{{ post.url | relative_url }}"
+      ><img src="{{ "/assets/img/" | relative_url | append: post.img }}" alt="{{
+      site.plainwhite.name }}"></a
+    >
   </div>
+
+  {% endfor %}
 </div>
-{% endfor %}
