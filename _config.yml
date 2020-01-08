@@ -3,6 +3,7 @@ author: Fredrik Johansson
 email: longchank@gmail.com
 description: > # this means to ignore newlines until "show_exerpts:"
 A portfolio / blog where I show off the stuff I have done in my past and blogging about the present.
+
 show_excerpts: true # set to true to show excerpts on the homepage
 
 # Minima date format
