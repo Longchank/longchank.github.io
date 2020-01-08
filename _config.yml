@@ -2,8 +2,7 @@ title: Blogfolio of Fredrik
 author: Fredrik Johansson
 email: longchank@gmail.com
 description: > # this means to ignore newlines until "show_exerpts:"
-A portfolio / blog where I show off the stuff I have done in my past and blogging about the present.
-
+  A portfolio / blog where I show off the stuff I have done in my past and blogging about the present.
 show_excerpts: true # set to true to show excerpts on the homepage
 
 # Minima date format
@@ -31,7 +30,6 @@ plainwhite:
     # youtube: jekyll
     # youtube_channel: UC8CXR0-3I70i1tfPg1PAE1g
     # youtube_channel_name: CloudCannon
-
 
 # If you want to link only specific pages in your header, uncomment
 # this and add the path to the pages in order as they should show up
