@@ -2,7 +2,8 @@
 layout: default
 ---
 
-{%- assign date_format = site.plainwhite.date_format | default: "%b %-d, %Y" -%}
+{% for post in site.posts %} {%- assign date_format =
+site.plainwhite.date_format | default: "%b %-d, %Y" -%}
 <div class="post-container">
   <a class="post-link" href="{{ page.url | relative_url }}">
     <h2 class="post-title">{{ page.title | escape }}</h2>
@@ -18,6 +19,7 @@ layout: default
     </div>
   </div>
   <div class="post">
-    {{ content }}
+    {{ post.content }}
   </div>
 </div>
+{%- endfor -%}
