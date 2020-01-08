@@ -40,6 +40,7 @@ plainwhite:
 collections_dir: collections
 collections:
   - portfolio
+  - posts
 # Build settings
 theme: plainwhite
 
