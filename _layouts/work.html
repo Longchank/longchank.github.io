@@ -5,21 +5,6 @@
   </head>
   <body>
     <main class="container">
-      <section class="about">
-        {%- if site.plainwhite.navigation -%}
-        <nav class="navigation">
-          <ul>
-            {% for link in site.plainwhite.navigation %}
-            <li>
-              <a href="{{ link.url }}">{{ link.title }}</a>
-            </li>
-            {% endfor %}
-          </ul>
-        </nav>
-        {%- endif -%}
-
-        <p>&copy; {{ "now" | date: "%Y" }}</p>
-      </section>
       <section class="content">
         {{ content }}
       </section>
