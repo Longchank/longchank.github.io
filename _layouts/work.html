@@ -3,27 +3,26 @@ layout: default
 ---
 
 {%- if page.title -%}
-  <h1 class="page-heading">{{ page.title }}</h1>
-{%- endif -%}
+<h1 class="page-heading">{{ page.title }}</h1>
+{%- endif -%} {%- if site.work.size > 0 -%}
+<ul class="posts">
+  <li>
+    <h1 id="posts-label">work</h1>
+  </li>
 
+  {%- for post in site.works -%}
+  <li>
+    {%- assign date_format = site.plainwhite.date_format | default: "%b %-d, %Y"
+    -%}
+    <a href="/"
+      ><img src="{{ "/assets/" | prepend: site.baseurl | append : post.img }}"
+      alt="{{ site.plainwhite.name }}"></a
+    >
+  </li>
+  {%- endfor -%}
+</ul>
 
-{%- if site.posts.size > 0 -%}
-  <ul class="posts">
-    <li>
-      <h1 id="posts-label">work</h1>
-    </li>
-
-    {%- for post in site.posts -%}
-      <li>
-        {%- assign date_format = site.plainwhite.date_format | default: "%b %-d, %Y" -%}
-      
-          <div class="cover-image" style="background: url({{"/assets/" | prepend: site.baseurl | append : post.img}}) center no-repeat; background-size: cover;"></div>
-      
-      </li>
-    {%- endfor -%}
-  </ul>
-
-  <!-- <p class="feed-subscribe"><svg class="svg-icon orange">
+<!-- <p class="feed-subscribe"><svg class="svg-icon orange">
 		<use xlink:href="{{ '/assets/minima-social-icons.svg#rss' | relative_url }}"></use>
 	</svg><a href="{{ "/feed.xml" | relative_url }}">Subscribe</a></p> -->
 {%- endif -%}
