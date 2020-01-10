@@ -11,7 +11,7 @@
 
 
 
-    <title>Longchank's Blogfolio</title>
+    <title>Author Page</title>
     <meta name="HandheldFriendly" content="True" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- Styles'n'Scripts -->
@@ -36,19 +36,19 @@
     <!-- This tag outputs SEO meta+structured data and other important settings -->
     <meta name="description" content="A blog or a portfolio or even both!" />
     <link rel="shortcut icon" href="http://localhost:4000/assets/images/favicon.png" type="image/png" />
-    <link rel="canonical" href="http://localhost:4000/" />
+    <link rel="canonical" href="http://localhost:4000/author/longchank/" />
     <meta name="referrer" content="no-referrer-when-downgrade" />
 
      <!--title below is coming from _includes/dynamic_title-->
     <meta property="og:site_name" content="Longchank's Blogfolio" />
     <meta property="og:type" content="website" />
-    <meta property="og:title" content="Longchank's Blogfolio" />
+    <meta property="og:title" content="Author Page" />
     <meta property="og:description" content="A blog or a portfolio or even both!" />
-    <meta property="og:url" content="http://localhost:4000/" />
+    <meta property="og:url" content="http://localhost:4000/author/longchank/" />
     <meta property="og:image" content="http://localhost:4000/assets/images/blog-cover.jpg" />
     <meta property="article:publisher" content="https://www.facebook.com/" />
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="Longchank's Blogfolio" />
+    <meta name="twitter:title" content="Author Page" />
     <meta name="twitter:description" content="A blog or a portfolio or even both!" />
     <meta name="twitter:url" content="http://localhost:4000/" />
     <meta name="twitter:image" content="http://localhost:4000/assets/images/blog-cover.jpg" />
@@ -68,7 +68,7 @@
         "name": "Longchank's Blogfolio",
         "logo": "http://localhost:4000/assets/images/blog-icon.png"
     },
-    "url": "http://localhost:4000/",
+    "url": "http://localhost:4000/author/longchank/",
     "image": {
         "@type": "ImageObject",
         "url": "http://localhost:4000/assets/images/blog-cover.jpg",
@@ -77,7 +77,7 @@
     },
     "mainEntityOfPage": {
         "@type": "WebPage",
-        "@id": "http://localhost:4000/"
+        "@id": "http://localhost:4000/author/longchank/"
     },
     "description": "A blog or a portfolio or even both!"
 }
@@ -92,59 +92,23 @@
     </script> -->
 
     <meta name="generator" content="Jekyll 3.6.2" />
-    <link rel="alternate" type="application/rss+xml" title="Longchank's Blogfolio" href="/feed.xml" />
+    <link rel="alternate" type="application/rss+xml" title="Author Page" href="/feed.xml" />
 
 
 </head>
-<body class="home-template">
+<body class="author-template">
 
     <div class="site-wrapper">
         <!-- All the main content gets inserted here, index.hbs, post.hbs, etc -->
-        <!-- < default -->
-<!-- The tag above means: insert everything in this file
-into the {body} of the default.hbs template -->
+        <!-- < default}} -->
+<!-- The tag above means - insert everything in this file into the {body} of the default.hbs template -->
 
-<!-- The big featured header, it uses blog cover image as a BG if available -->
-<header class="site-header outer " style="background-image:  url(/assets/images/blog-cover.jpg) ">
-    <div class="inner">
-        <div class="site-header-content">
-            <h1 class="site-title">
-                
-                    <img class="site-logo" src="/assets/images/blog-icon.png" alt="Longchank's Blogfolio"/>
-                
-            </h1>
-            <h2 class="site-description">A blog or a portfolio or even both!</h2>
-        </div>
-        <nav class="site-nav">
-    <div class="site-nav-left">
-        
-        
-            <ul class="nav" role="menu">
-  <li class="nav-home" role="menuitem"><a href="/">Home</a></li>
-  <li class="nav-about" role="menuitem">
-    <a href="/about/">About</a>
-  </li>
-  <li class="nav-getting-started" role="menuitem">
-    <a href="/tag/Portfolio/">Portfolio</a>
-  </li>
-  <li class="nav-getting-started" role="menuitem">
-    <a href="/tag/Coding/">Coding</a>
-  </li>
-</ul>
+<!-- #author  -->
+<!-- Everything inside the #author tags pulls data from the author -->
 
-        
-    </div>
-    <div class="site-nav-right">
-        <div class="social-links">
-            
-            
-        </div>
-        
-    </div>
-</nav>
+    
 
-    </div>
-</header>
+<!-- /author -->
 
 <!-- The main content area -->
 <main id="site-main" class="site-main outer" role="main">
@@ -155,7 +119,7 @@ into the {body} of the default.hbs template -->
             
 
 
-    <article class="post-card home-template">
+    <article class="post-card author-template">
         
             <a class="post-card-image-link" href="/welcome">
                 <div class="post-card-image" style="background-image: url(/assets/images/welcome.jpg)"></div>
@@ -196,7 +160,7 @@ into the {body} of the default.hbs template -->
         </div>
     </article>
 
-    <article class="post-card home-template">
+    <article class="post-card author-template">
         
             <a class="post-card-image-link" href="/a-full-and-comprehensive-style-test">
                 <div class="post-card-image" style="background-image: url(/assets/images/bear.jpg)"></div>
