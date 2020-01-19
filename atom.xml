@@ -8,31 +8,106 @@
     
       
       <item>
-        <title>Welcome to Ghost</title>
+        <title>Engagement ring</title>
         
-          <description>&lt;p&gt;Hey! Welcome to Ghost, it’s great to have you :)&lt;/p&gt;
+          <description>&lt;h1 id=&quot;its-time-to-grow-up&quot;&gt;It´s time to grow up!&lt;/h1&gt;
 
 </description>
         
-        <pubDate>Thu, 27 Jul 2017 12:00:00 +0200</pubDate>
+        <pubDate>Fri, 27 Jul 2018 12:00:00 +0200</pubDate>
         <link>
-        http://localhost:4000/welcome</link>
-        <guid isPermaLink="true">http://localhost:4000/welcome</guid>
+        http://localhost:4000/the-ring</link>
+        <guid isPermaLink="true">http://localhost:4000/the-ring</guid>
       </item>
       
     
       
       <item>
-        <title>A Full and Comprehensive Style Test</title>
+        <title>Product Viewer</title>
         
-          <description>&lt;p&gt;Below is just about everything you’ll need to style in the theme. Check the source code to see the many embedded elements within paragraphs.&lt;/p&gt;
+          <description>&lt;p&gt;With my work at NORM I noticed that we did not have a way to display single products in 3D, not in a store but in a survey question or similiar. So I decided to build a quick way to display products in our surveys. This had to be light weight and device agnostic.&lt;/p&gt;
 
 </description>
         
-        <pubDate>Sat, 01 Sep 2012 12:00:00 +0200</pubDate>
+        <pubDate>Fri, 27 Jul 2018 12:00:00 +0200</pubDate>
         <link>
-        http://localhost:4000/a-full-and-comprehensive-style-test</link>
-        <guid isPermaLink="true">http://localhost:4000/a-full-and-comprehensive-style-test</guid>
+        http://localhost:4000/gainomax</link>
+        <guid isPermaLink="true">http://localhost:4000/gainomax</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>UDK Environment</title>
+        
+          <description>&lt;p&gt;One of my early personal projects, I wanted to learn the UDK engine and it´s asset workflow.&lt;/p&gt;
+
+</description>
+        
+        <pubDate>Thu, 27 Jul 2017 12:00:00 +0200</pubDate>
+        <link>
+        http://localhost:4000/udk-environement</link>
+        <guid isPermaLink="true">http://localhost:4000/udk-environement</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Test Drive Unlimited 2</title>
+        
+          <description>&lt;p&gt;As an intern in Lyon, France, I was responsible for designing various areas in the game “Test Drive Unlimited 2”. Making sure areas were more intriguing and aligned with the other areas inside the game.&lt;/p&gt;
+
+</description>
+        
+        <pubDate>Thu, 27 Jul 2017 12:00:00 +0200</pubDate>
+        <link>
+        http://localhost:4000/tdu</link>
+        <guid isPermaLink="true">http://localhost:4000/tdu</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>The Showdown Effect</title>
+        
+          <description>&lt;p&gt;Part of the core team at the launch of the computer game “Showdown Effect”. I was responsible for mocking up levels and prototyping art assets. During the alpha version I had the responsibility for various 3D models and assets.&lt;/p&gt;
+
+</description>
+        
+        <pubDate>Thu, 27 Jul 2017 12:00:00 +0200</pubDate>
+        <link>
+        http://localhost:4000/showdown</link>
+        <guid isPermaLink="true">http://localhost:4000/showdown</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>NORM</title>
+        
+          <description>&lt;p&gt;Here, I got the opportunity to apply my competence within game development on the market research industry. With clients such as FMCG companies like Nestlé, Unilever etc. we performed quantitative, web-based user tests for new concepts, new designs, brand repositioning projects, and more. I was part of the team that built all the surveys, and also solely responsible for all 3D graphical layout. I was employed specifically for my background in game development and the go-to guy for 3D solutions. I created virtual 3D stores like pharmacies and grocery stores when clients had new and innovative store concepts that they wanted to test on end-consumers. I also spearheaded the in-house development of 3D, developing new ways of virtualizing shopper experience at point-of-purchase using VR &amp;amp; 3D.&lt;/p&gt;
+
+</description>
+        
+        <pubDate>Thu, 27 Jul 2017 12:00:00 +0200</pubDate>
+        <link>
+        http://localhost:4000/norm</link>
+        <guid isPermaLink="true">http://localhost:4000/norm</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Highpoly project</title>
+        
+          <description>&lt;p&gt;A school project I did, building a highpoly and focusing on hardsurfaces.&lt;/p&gt;
+
+</description>
+        
+        <pubDate>Thu, 27 Jul 2017 12:00:00 +0200</pubDate>
+        <link>
+        http://localhost:4000/highpoly-piece</link>
+        <guid isPermaLink="true">http://localhost:4000/highpoly-piece</guid>
       </item>
       
     

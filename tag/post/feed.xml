@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<feed xmlns="http://www.w3.org/2005/Atom" >
+  <generator uri="https://jekyllrb.com/" version="3.7.4">Jekyll</generator>
+  <link href="http://localhost:4000/tag/post/feed.xml" rel="self" type="application/atom+xml" />
+  <link href="http://localhost:4000/" rel="alternate" type="text/html" />
+  <updated>2020-01-19T19:19:45+01:00</updated>
+  <id>http://localhost:4000/tag/post/feed.xml</id>
+
+  
+  
+  
+
+  
+    <title type="html">Longchank’s Blogfolio | </title>
+  
+
+  
+    <subtitle>A blog or a portfolio or even both!</subtitle>
+  
+
+  
+
+  
+    
+      
+    
+  
+
+  
+  
+
+  
+    <entry>
+      <title type="html">Engagement ring</title>
+      <link href="http://localhost:4000/the-ring" rel="alternate" type="text/html" title="Engagement ring" />
+      <published>2018-07-27T12:00:00+02:00</published>
+      <updated>2018-07-27T12:00:00+02:00</updated>
+      <id>http://localhost:4000/the-ring</id>
+      <content type="html" xml:base="http://localhost:4000/the-ring">&lt;h1 id=&quot;its-time-to-grow-up&quot;&gt;It´s time to grow up!&lt;/h1&gt;
+
+&lt;h2 id=&quot;so-i-made-this-engagement-ring-in-blender&quot;&gt;So I made this engagement ring in Blender.&lt;/h2&gt;
+
+&lt;p&gt;The idea was to 3D print it, since this was my first encounter in designing jewelery I started by reading on various design techniques in jewelry. There was plenty of material to go through and I felt comfortable in creating a ring that would be “the” ring for my lady.&lt;/p&gt;
+
+&lt;p&gt;I used Blender and a plugin i found when researching jewelry design. It´s called JewelCraft, the plugin helped me very much with scale, adding prongs, adding rocks that followed a specific curve. It also gave me an estimation on the weight of the ring in various materials, which in turn gave me an estimation in cost.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;assets/images/ring/Side.PNG&quot; alt=&quot;alt text&quot; title=&quot; &quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;It was also great since I already have started with a design, using curves. And the plugin uses curves for placing and creating various elements.&lt;/p&gt;
+
+&lt;p&gt;The biggest issue I had was how to find and fit the stones, how the fitting of the large stone should look and what was actually possible to create that wont break or will be to loose.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;assets/images/ring/side2.PNG&quot; alt=&quot;alt text&quot; title=&quot; &quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;By a happenstance the Stockholm startup Ve and Vile had a presentation during one of our startup community breakfasts.
+I contacted them, and they helped me with some design questions and finding the rocks for me. They also was the ones that 3D printed it for me and fitted the rocks. So all i had to do was to make the ring the best ring ever.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;assets/images/ring/Top.PNG&quot; alt=&quot;alt text&quot; title=&quot; &quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.instagram.com/p/BxuBBW0IGzt/?utm_source=ig_web_copy_link&quot;&gt;Cover Photo from Ve and Vile&lt;/a&gt;&lt;br /&gt;
+If you want to know more about Ve and Vile check out their page&lt;br /&gt;
+&lt;a href=&quot;https://www.veandvile.com/&quot;&gt;Ve and Vile&lt;/a&gt;&lt;br /&gt;
+Check out the JewelCraft github!&lt;br /&gt;
+&lt;a href=&quot;https://github.com/mrachinskiy/jewelcraft&quot;&gt;JewelCraft github&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;assets/images/ring/inbox.jpg&quot; alt=&quot;alt text&quot; title=&quot; &quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;And just to be cool, I made the box as well. Walnut with leather/cotton pillows.&lt;/p&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>Fredrik Johansson</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="post" />
+      
+
+      
+        <summary type="html">It´s time to grow up!</summary>
+      
+
+      
+      
+    </entry>
+  
+</feed>
