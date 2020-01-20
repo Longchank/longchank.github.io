@@ -4,7 +4,7 @@
   <generator uri="https://jekyllrb.com/" version="3.7.4">Jekyll</generator>
   <link href="http://localhost:4000/author/longchank/feed.xml" rel="self" type="application/atom+xml" />
   <link href="http://localhost:4000/" rel="alternate" type="text/html" />
-  <updated>2020-01-19T20:03:19+01:00</updated>
+  <updated>2020-01-20T18:42:25+01:00</updated>
   <id>http://localhost:4000/author/longchank/feed.xml</id>
 
   
@@ -47,7 +47,7 @@ So I made the below viewer, it was quite easy to get started and building a simp
 &lt;p&gt;The Gainomax shake is just a test product that I created using Photogrammetry.
 I wanted to see if photogrammetry could be a method for creating 3D products instead of modeling them from scratch.&lt;/p&gt;
 
-&lt;iframe height=&quot;620px&quot; width=&quot;100%&quot; src=&quot;http://fredrik3d.com/dev/gainomax.html&quot;&gt;&lt;/iframe&gt;</content>
+&lt;iframe height=&quot;620px&quot; width=&quot;100%&quot; src=&quot;https://fredrik3d.com/dev/gainomax.html&quot;&gt;&lt;/iframe&gt;</content>
 
       
       
