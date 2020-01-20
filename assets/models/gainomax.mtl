@@ -1,0 +1,13 @@
+# Blender MTL File: 'TEST.blend'
+# Material Count: 1
+
+newmtl Material.001
+Ns 90.196078
+Ka 0.000000 0.000000 0.000000
+Kd 0.409600 0.409600 0.409600
+Ks 0.250000 0.250000 0.250000
+Ni 1.000000
+d 1.000000
+illum 0
+map_Kd C:\Users\Mallard\Dropbox\Public\DIFFUSE.dds
+map_Bump C:\\Users\\Mallard\\Dropbox\\Public\\NORMALS.dds

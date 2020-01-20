@@ -41,7 +41,7 @@
         background: none;
       }
     </style>
-
+    
     <!--[if IE]>
       <style>
         p,
@@ -203,7 +203,80 @@ So I made the below viewer, it was quite easy to get started and building a simp
 <p>The Gainomax shake is just a test product that I created using Photogrammetry.
 I wanted to see if photogrammetry could be a method for creating 3D products instead of modeling them from scratch.</p>
 
-<iframe height="620px" width="100%" src="https://fredrik3d.com/dev/gainomax.html"></iframe>
+<h3 id="it-is-not-responsive-so-if-it-looks-wonky-just-reload-the-page-wip">It is not responsive, so if it looks wonky just reload the page. (WIP)</h3>
+
+<div class="container">
+<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous" />
+<style>
+#row3d{
+/*    margin: 20px;*/
+    border: 1px solid grey;
+}
+#container{
+    width:600px;
+    height:600px;
+/*    background: url('images/bg.jpg') 50% 50% no-repeat;*/
+    background-color: whitesmoke;
+}
+#instructions{
+    margin: 10px;
+}
+.loader {
+    position: absolute;
+    width: inherit;
+    height: 100%;
+    z-index: 9999;
+    background: url('assets/images/loading.gif') 50% 50% no-repeat rgb(249,249,249);
+}
+.gui{
+    float: right;
+    margin-top: -40px;
+    margin-right: 10px;
+    position: relative;
+}
+</style>
+        <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+        <script src="assets/js/jquery-ui.min.js"></script>
+        <script src="assets/js/three.min.js"></script>
+        <script src="assets/js/OrbitControls.js"></script>
+        <script src="assets/js/OBJLoader.js"></script>
+        <script src="assets/js/RGBELoader.js"></script>
+        <script src="assets/js/HDRCubeTextureLoader.js"></script>
+        <script src="assets/js/Encodings.js"></script>
+        <script src="assets/js/PMREMGenerator.js"></script>
+        <script src="assets/js/PMREMCubeUVPacker.js"></script>
+        <script src="assets/js/Detector.js"></script>
+        <script src="assets/js/model.js"></script>
+
+<div id="row3d" class="row">
+<div class="col-md-12 portfolio-item">
+<div class="loader"></div>
+<div id="container"></div>
+<div class="gui">
+<button class="btn btn-default" id="zoomIn"><i class="fa fa-search-plus" aria-hidden="true"></i></button>
+<button class="btn btn-default" id="zoomOut"><i class="fa fa-search-minus" aria-hidden="true"></i></button>
+</div>
+</div>
+</div>
+        <script type="text/javascript">
+//Load init on document ready
+$(function() {
+    console.log( "ready!" );
+    init();
+    animate();
+//Zoom in button function
+    $("#zoomIn").click(function(){
+        eventZoomCTRL(true);
+    });
+//Zoom out button function
+        $("#zoomOut").click(function(){
+        eventZoomCTRL(false);
+    });
+});
+</script>
+</div>
+
+<!-- <iframe height="620px" width="100%" src="https://fredrik3d.com/dev/gainomax.html"></iframe> -->
 
                 </div>
             </section>

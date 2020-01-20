@@ -4,7 +4,7 @@
   <generator uri="https://jekyllrb.com/" version="3.7.4">Jekyll</generator>
   <link href="http://localhost:4000/tag/portfolio/feed.xml" rel="self" type="application/atom+xml" />
   <link href="http://localhost:4000/" rel="alternate" type="text/html" />
-  <updated>2020-01-20T18:42:25+01:00</updated>
+  <updated>2020-01-20T19:34:54+01:00</updated>
   <id>http://localhost:4000/tag/portfolio/feed.xml</id>
 
   
@@ -47,7 +47,80 @@ So I made the below viewer, it was quite easy to get started and building a simp
 &lt;p&gt;The Gainomax shake is just a test product that I created using Photogrammetry.
 I wanted to see if photogrammetry could be a method for creating 3D products instead of modeling them from scratch.&lt;/p&gt;
 
-&lt;iframe height=&quot;620px&quot; width=&quot;100%&quot; src=&quot;https://fredrik3d.com/dev/gainomax.html&quot;&gt;&lt;/iframe&gt;</content>
+&lt;h3 id=&quot;it-is-not-responsive-so-if-it-looks-wonky-just-reload-the-page-wip&quot;&gt;It is not responsive, so if it looks wonky just reload the page. (WIP)&lt;/h3&gt;
+
+&lt;div class=&quot;container&quot;&gt;
+&lt;link href=&quot;https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css&quot; rel=&quot;stylesheet&quot; integrity=&quot;sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN&quot; crossorigin=&quot;anonymous&quot; /&gt;
+&lt;style&gt;
+#row3d{
+/*    margin: 20px;*/
+    border: 1px solid grey;
+}
+#container{
+    width:600px;
+    height:600px;
+/*    background: url('images/bg.jpg') 50% 50% no-repeat;*/
+    background-color: whitesmoke;
+}
+#instructions{
+    margin: 10px;
+}
+.loader {
+    position: absolute;
+    width: inherit;
+    height: 100%;
+    z-index: 9999;
+    background: url('assets/images/loading.gif') 50% 50% no-repeat rgb(249,249,249);
+}
+.gui{
+    float: right;
+    margin-top: -40px;
+    margin-right: 10px;
+    position: relative;
+}
+&lt;/style&gt;
+        &lt;script src=&quot;https://code.jquery.com/jquery-2.2.4.min.js&quot; integrity=&quot;sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=&quot; crossorigin=&quot;anonymous&quot;&gt;&lt;/script&gt;
+        &lt;script src=&quot;assets/js/jquery-ui.min.js&quot;&gt;&lt;/script&gt;
+        &lt;script src=&quot;assets/js/three.min.js&quot;&gt;&lt;/script&gt;
+        &lt;script src=&quot;assets/js/OrbitControls.js&quot;&gt;&lt;/script&gt;
+        &lt;script src=&quot;assets/js/OBJLoader.js&quot;&gt;&lt;/script&gt;
+        &lt;script src=&quot;assets/js/RGBELoader.js&quot;&gt;&lt;/script&gt;
+        &lt;script src=&quot;assets/js/HDRCubeTextureLoader.js&quot;&gt;&lt;/script&gt;
+        &lt;script src=&quot;assets/js/Encodings.js&quot;&gt;&lt;/script&gt;
+        &lt;script src=&quot;assets/js/PMREMGenerator.js&quot;&gt;&lt;/script&gt;
+        &lt;script src=&quot;assets/js/PMREMCubeUVPacker.js&quot;&gt;&lt;/script&gt;
+        &lt;script src=&quot;assets/js/Detector.js&quot;&gt;&lt;/script&gt;
+        &lt;script src=&quot;assets/js/model.js&quot;&gt;&lt;/script&gt;
+
+&lt;div id=&quot;row3d&quot; class=&quot;row&quot;&gt;
+&lt;div class=&quot;col-md-12 portfolio-item&quot;&gt;
+&lt;div class=&quot;loader&quot;&gt;&lt;/div&gt;
+&lt;div id=&quot;container&quot;&gt;&lt;/div&gt;
+&lt;div class=&quot;gui&quot;&gt;
+&lt;button class=&quot;btn btn-default&quot; id=&quot;zoomIn&quot;&gt;&lt;i class=&quot;fa fa-search-plus&quot; aria-hidden=&quot;true&quot;&gt;&lt;/i&gt;&lt;/button&gt;
+&lt;button class=&quot;btn btn-default&quot; id=&quot;zoomOut&quot;&gt;&lt;i class=&quot;fa fa-search-minus&quot; aria-hidden=&quot;true&quot;&gt;&lt;/i&gt;&lt;/button&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+        &lt;script type=&quot;text/javascript&quot;&gt;
+//Load init on document ready
+$(function() {
+    console.log( &quot;ready!&quot; );
+    init();
+    animate();
+//Zoom in button function
+    $(&quot;#zoomIn&quot;).click(function(){
+        eventZoomCTRL(true);
+    });
+//Zoom out button function
+        $(&quot;#zoomOut&quot;).click(function(){
+        eventZoomCTRL(false);
+    });
+});
+&lt;/script&gt;
+&lt;/div&gt;
+
+&lt;!-- &lt;iframe height=&quot;620px&quot; width=&quot;100%&quot; src=&quot;https://fredrik3d.com/dev/gainomax.html&quot;&gt;&lt;/iframe&gt; --&gt;</content>
 
       
       
