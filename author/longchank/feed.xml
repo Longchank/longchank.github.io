@@ -4,7 +4,7 @@
   <generator uri="https://jekyllrb.com/" version="3.7.4">Jekyll</generator>
   <link href="http://localhost:4000/author/longchank/feed.xml" rel="self" type="application/atom+xml" />
   <link href="http://localhost:4000/" rel="alternate" type="text/html" />
-  <updated>2020-01-20T19:34:54+01:00</updated>
+  <updated>2020-02-03T21:30:12+01:00</updated>
   <id>http://localhost:4000/author/longchank/feed.xml</id>
 
   
@@ -37,7 +37,15 @@
       <published>2018-07-27T12:00:00+02:00</published>
       <updated>2018-07-27T12:00:00+02:00</updated>
       <id>http://localhost:4000/gainomax</id>
-      <content type="html" xml:base="http://localhost:4000/gainomax">&lt;p&gt;With my work at NORM I noticed that we did not have a way to display single products in 3D, not in a store but in a survey question or similiar. So I decided to build a quick way to display products in our surveys. This had to be light weight and device agnostic.&lt;/p&gt;
+      <content type="html" xml:base="http://localhost:4000/gainomax">&lt;style&gt;
+#c {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+&lt;/style&gt;
+
+&lt;p&gt;With my work at NORM I noticed that we did not have a way to display single products in 3D, not in a store but in a survey question or similiar. So I decided to build a quick way to display products in our surveys. This had to be light weight and device agnostic.&lt;/p&gt;
 
 &lt;p&gt;I found Three.js to be the best option for this.
 So I made the below viewer, it was quite easy to get started and building a simple viewer in Three.js.&lt;/p&gt;
@@ -47,80 +55,16 @@ So I made the below viewer, it was quite easy to get started and building a simp
 &lt;p&gt;The Gainomax shake is just a test product that I created using Photogrammetry.
 I wanted to see if photogrammetry could be a method for creating 3D products instead of modeling them from scratch.&lt;/p&gt;
 
-&lt;h3 id=&quot;it-is-not-responsive-so-if-it-looks-wonky-just-reload-the-page-wip&quot;&gt;It is not responsive, so if it looks wonky just reload the page. (WIP)&lt;/h3&gt;
-
-&lt;div class=&quot;container&quot;&gt;
-&lt;link href=&quot;https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css&quot; rel=&quot;stylesheet&quot; integrity=&quot;sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN&quot; crossorigin=&quot;anonymous&quot; /&gt;
-&lt;style&gt;
-#row3d{
-/*    margin: 20px;*/
-    border: 1px solid grey;
-}
-#container{
-    width:600px;
-    height:600px;
-/*    background: url('images/bg.jpg') 50% 50% no-repeat;*/
-    background-color: whitesmoke;
-}
-#instructions{
-    margin: 10px;
-}
-.loader {
-    position: absolute;
-    width: inherit;
-    height: 100%;
-    z-index: 9999;
-    background: url('assets/images/loading.gif') 50% 50% no-repeat rgb(249,249,249);
-}
-.gui{
-    float: right;
-    margin-top: -40px;
-    margin-right: 10px;
-    position: relative;
-}
-&lt;/style&gt;
-        &lt;script src=&quot;https://code.jquery.com/jquery-2.2.4.min.js&quot; integrity=&quot;sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=&quot; crossorigin=&quot;anonymous&quot;&gt;&lt;/script&gt;
-        &lt;script src=&quot;assets/js/jquery-ui.min.js&quot;&gt;&lt;/script&gt;
-        &lt;script src=&quot;assets/js/three.min.js&quot;&gt;&lt;/script&gt;
-        &lt;script src=&quot;assets/js/OrbitControls.js&quot;&gt;&lt;/script&gt;
-        &lt;script src=&quot;assets/js/OBJLoader.js&quot;&gt;&lt;/script&gt;
-        &lt;script src=&quot;assets/js/RGBELoader.js&quot;&gt;&lt;/script&gt;
-        &lt;script src=&quot;assets/js/HDRCubeTextureLoader.js&quot;&gt;&lt;/script&gt;
-        &lt;script src=&quot;assets/js/Encodings.js&quot;&gt;&lt;/script&gt;
-        &lt;script src=&quot;assets/js/PMREMGenerator.js&quot;&gt;&lt;/script&gt;
-        &lt;script src=&quot;assets/js/PMREMCubeUVPacker.js&quot;&gt;&lt;/script&gt;
-        &lt;script src=&quot;assets/js/Detector.js&quot;&gt;&lt;/script&gt;
-        &lt;script src=&quot;assets/js/model.js&quot;&gt;&lt;/script&gt;
-
-&lt;div id=&quot;row3d&quot; class=&quot;row&quot;&gt;
-&lt;div class=&quot;col-md-12 portfolio-item&quot;&gt;
-&lt;div class=&quot;loader&quot;&gt;&lt;/div&gt;
-&lt;div id=&quot;container&quot;&gt;&lt;/div&gt;
-&lt;div class=&quot;gui&quot;&gt;
-&lt;button class=&quot;btn btn-default&quot; id=&quot;zoomIn&quot;&gt;&lt;i class=&quot;fa fa-search-plus&quot; aria-hidden=&quot;true&quot;&gt;&lt;/i&gt;&lt;/button&gt;
-&lt;button class=&quot;btn btn-default&quot; id=&quot;zoomOut&quot;&gt;&lt;i class=&quot;fa fa-search-minus&quot; aria-hidden=&quot;true&quot;&gt;&lt;/i&gt;&lt;/button&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-        &lt;script type=&quot;text/javascript&quot;&gt;
-//Load init on document ready
-$(function() {
-    console.log( &quot;ready!&quot; );
-    init();
-    animate();
-//Zoom in button function
-    $(&quot;#zoomIn&quot;).click(function(){
-        eventZoomCTRL(true);
-    });
-//Zoom out button function
-        $(&quot;#zoomOut&quot;).click(function(){
-        eventZoomCTRL(false);
-    });
-});
-&lt;/script&gt;
+&lt;div id=&quot;gooey&quot;&gt;
+&lt;span class=&quot;dot&quot;&gt;&lt;/span&gt;
+  &lt;div class=&quot;dots&quot;&gt;
+    &lt;span&gt;&lt;/span&gt;
+    &lt;span&gt;&lt;/span&gt;
+    &lt;span&gt;&lt;/span&gt;
+  &lt;/div&gt;
 &lt;/div&gt;
 
-&lt;!-- &lt;iframe height=&quot;620px&quot; width=&quot;100%&quot; src=&quot;https://fredrik3d.com/dev/gainomax.html&quot;&gt;&lt;/iframe&gt; --&gt;</content>
+&lt;canvas id=&quot;c&quot;&gt;&lt;/canvas&gt;</content>
 
       
       
@@ -141,7 +85,7 @@ $(function() {
       
 
       
-        <summary type="html">With my work at NORM I noticed that we did not have a way to display single products in 3D, not in a store but in a survey question or similiar. So I decided to build a quick way to display products in our surveys. This had to be light weight and device agnostic.</summary>
+        <summary type="html"></summary>
       
 
       
@@ -292,6 +236,62 @@ Check out the JewelCraft github!&lt;br /&gt;
 
       
         <summary type="html">One of my early personal projects, I wanted to learn the UDK engine and it´s asset workflow.</summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
+      <title type="html">Professor Murphy’s Wooden Puzzle</title>
+      <link href="http://localhost:4000/professor-murphys-cube" rel="alternate" type="text/html" title="Professor Murphy's Wooden Puzzle" />
+      <published>2017-07-27T12:00:00+02:00</published>
+      <updated>2017-07-27T12:00:00+02:00</updated>
+      <id>http://localhost:4000/professor-murphys-cube</id>
+      <content type="html" xml:base="http://localhost:4000/professor-murphys-cube">&lt;p&gt;An AR step-by-step guide for a puzzle.&lt;/p&gt;
+
+&lt;p&gt;I have been wanting to see how a step by step guide would look and feel like in AR. So using the puzzle i had at home i created this AR guide for how to solve it.
+Since I have been working alot in Playmaker, a visual scripting tool for Unity. I did this fully in Playmaker, with only little code to connect ARFoundation with Playmaker.
+Below are some screenshots from the different statemachines i used to control the app. I used a controller for the context of the app then for each step of the puzzle i made a template statemachine that would be generic for each step. The generic template controls the text and the value of the step, so I could understand which step was the first and last step. Because on the first step and last step different tweens would happen.&lt;/p&gt;
+
+&lt;p&gt;The controller.
+&lt;img src=&quot;assets/images/murphy/controller.jpg&quot; alt=&quot;alt text&quot; title=&quot; Controller for the app &quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The template that is on each piece of the puzzle
+&lt;img src=&quot;assets/images/murphy/piece_template.jpg&quot; alt=&quot;alt text&quot; title=&quot; Statemachine for each piece &quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;graphics&quot;&gt;Graphics&lt;/h2&gt;
+
+&lt;p&gt;For the graphics I created UI sprites and built a world canvas that would be the way the user interacts with the steps.
+This was built with AR in mind, but due to the small size of the puzzle and the way the user would interact with the puzzle in real life it was not advantageous to use such a canvas. Therefore i added also the ability to swipe between each step, removing the obstacle of trying to tap a small world space button.
+The text though worked, but with a screen-space canvas the text would have given more clarity to each step.&lt;/p&gt;
+
+&lt;p&gt;For the 3D models i created them just by measuring each wooden block so it could be scale 1:1 in the app. Then I created a custom shader in Amplify Shader Editor, in which I could control both the color and alpha inside each step.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;assets/images/murphy/blockshader.jpg&quot; alt=&quot;alt text&quot; title=&quot; Simple shader &quot; /&gt;&lt;/p&gt;
+
+&lt;iframe src=&quot;https://www.youtube.com/embed/THSb6-kpNi0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>Fredrik Johansson</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="portfolio" />
+      
+
+      
+        <summary type="html">An AR step-by-step guide for a puzzle.</summary>
       
 
       

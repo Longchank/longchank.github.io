@@ -25,7 +25,13 @@
       <item>
         <title>Product Viewer</title>
         
-          <description>&lt;p&gt;With my work at NORM I noticed that we did not have a way to display single products in 3D, not in a store but in a survey question or similiar. So I decided to build a quick way to display products in our surveys. This had to be light weight and device agnostic.&lt;/p&gt;
+          <description>&lt;style&gt;
+#c {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+&lt;/style&gt;
 
 </description>
         
@@ -33,6 +39,21 @@
         <link>
         http://localhost:4000/gainomax</link>
         <guid isPermaLink="true">http://localhost:4000/gainomax</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Professor Murphy's Wooden Puzzle</title>
+        
+          <description>&lt;p&gt;An AR step-by-step guide for a puzzle.&lt;/p&gt;
+
+</description>
+        
+        <pubDate>Thu, 27 Jul 2017 12:00:00 +0200</pubDate>
+        <link>
+        http://localhost:4000/professor-murphys-cube</link>
+        <guid isPermaLink="true">http://localhost:4000/professor-murphys-cube</guid>
       </item>
       
     
