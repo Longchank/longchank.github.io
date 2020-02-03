@@ -4,7 +4,7 @@
   <generator uri="https://jekyllrb.com/" version="3.7.4">Jekyll</generator>
   <link href="http://localhost:4000/tag/portfolio/feed.xml" rel="self" type="application/atom+xml" />
   <link href="http://localhost:4000/" rel="alternate" type="text/html" />
-  <updated>2020-02-03T21:30:12+01:00</updated>
+  <updated>2020-02-03T21:48:36+01:00</updated>
   <id>http://localhost:4000/tag/portfolio/feed.xml</id>
 
   
@@ -316,10 +316,10 @@ Since I have been working alot in Playmaker, a visual scripting tool for Unity. 
 Below are some screenshots from the different statemachines i used to control the app. I used a controller for the context of the app then for each step of the puzzle i made a template statemachine that would be generic for each step. The generic template controls the text and the value of the step, so I could understand which step was the first and last step. Because on the first step and last step different tweens would happen.&lt;/p&gt;
 
 &lt;p&gt;The controller.
-&lt;img src=&quot;assets/images/murphy/controller.jpg&quot; alt=&quot;alt text&quot; title=&quot; Controller for the app &quot; /&gt;&lt;/p&gt;
+&lt;img src=&quot;assets/images/murphy/controller.JPG&quot; alt=&quot;alt text&quot; title=&quot; Controller for the app &quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;The template that is on each piece of the puzzle
-&lt;img src=&quot;assets/images/murphy/piece_template.jpg&quot; alt=&quot;alt text&quot; title=&quot; Statemachine for each piece &quot; /&gt;&lt;/p&gt;
+&lt;img src=&quot;assets/images/murphy/piece_template.JPG&quot; alt=&quot;alt text&quot; title=&quot; Statemachine for each piece &quot; /&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;graphics&quot;&gt;Graphics&lt;/h2&gt;
 
@@ -329,7 +329,7 @@ The text though worked, but with a screen-space canvas the text would have given
 
 &lt;p&gt;For the 3D models i created them just by measuring each wooden block so it could be scale 1:1 in the app. Then I created a custom shader in Amplify Shader Editor, in which I could control both the color and alpha inside each step.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;assets/images/murphy/blockshader.jpg&quot; alt=&quot;alt text&quot; title=&quot; Simple shader &quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;assets/images/murphy/blockshader.JPG&quot; alt=&quot;alt text&quot; title=&quot; Simple shader &quot; /&gt;&lt;/p&gt;
 
 &lt;iframe src=&quot;https://www.youtube.com/embed/THSb6-kpNi0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;</content>
 

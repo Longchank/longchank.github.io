@@ -131,29 +131,25 @@ into the {body} of the default.hbs template -->
 <header class="site-header outer">
     <div class="inner">
         <nav class="site-nav">
-    <div class="site-nav-left">
-        
-            
-                <a class="site-nav-logo" href="http://localhost:4000/"><img src="/assets/images/blog-icon.png" alt="Longchank's Blogfolio" /></a>
-            
-        
-        
-            <ul class="nav" role="menu">
+  <div class="site-nav-left">
+     
+    <a class="site-nav-logo" href="/"
+      ><img src="/assets/images/blog-icon.png" alt="Longchank's Blogfolio"
+    /></a>
+       <ul class="nav" role="menu">
   <li class="nav-home" role="menuitem"><a href="/">Home</a></li>
   <li class="nav-about" role="menuitem">
     <a href="/about/">About</a>
   </li>
 </ul>
-
-        
+ 
+  </div>
+  <div class="site-nav-right">
+    <div class="social-links">
+       
     </div>
-    <div class="site-nav-right">
-        <div class="social-links">
-            
-            
-        </div>
-        
-    </div>
+    
+  </div>
 </nav>
 
     </div>
@@ -196,10 +192,10 @@ Since I have been working alot in Playmaker, a visual scripting tool for Unity. 
 Below are some screenshots from the different statemachines i used to control the app. I used a controller for the context of the app then for each step of the puzzle i made a template statemachine that would be generic for each step. The generic template controls the text and the value of the step, so I could understand which step was the first and last step. Because on the first step and last step different tweens would happen.</p>
 
 <p>The controller.
-<img src="assets/images/murphy/controller.jpg" alt="alt text" title=" Controller for the app " /></p>
+<img src="assets/images/murphy/controller.JPG" alt="alt text" title=" Controller for the app " /></p>
 
 <p>The template that is on each piece of the puzzle
-<img src="assets/images/murphy/piece_template.jpg" alt="alt text" title=" Statemachine for each piece " /></p>
+<img src="assets/images/murphy/piece_template.JPG" alt="alt text" title=" Statemachine for each piece " /></p>
 
 <h2 id="graphics">Graphics</h2>
 
@@ -209,7 +205,7 @@ The text though worked, but with a screen-space canvas the text would have given
 
 <p>For the 3D models i created them just by measuring each wooden block so it could be scale 1:1 in the app. Then I created a custom shader in Amplify Shader Editor, in which I could control both the color and alpha inside each step.</p>
 
-<p><img src="assets/images/murphy/blockshader.jpg" alt="alt text" title=" Simple shader " /></p>
+<p><img src="assets/images/murphy/blockshader.JPG" alt="alt text" title=" Simple shader " /></p>
 
 <iframe src="https://www.youtube.com/embed/THSb6-kpNi0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
 
