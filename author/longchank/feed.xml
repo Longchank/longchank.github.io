@@ -4,7 +4,7 @@
   <generator uri="https://jekyllrb.com/" version="3.7.4">Jekyll</generator>
   <link href="http://localhost:4000/author/longchank/feed.xml" rel="self" type="application/atom+xml" />
   <link href="http://localhost:4000/" rel="alternate" type="text/html" />
-  <updated>2020-02-03T21:48:36+01:00</updated>
+  <updated>2020-02-10T14:38:52+01:00</updated>
   <id>http://localhost:4000/author/longchank/feed.xml</id>
 
   
@@ -32,71 +32,10 @@
 
   
     <entry>
-      <title type="html">Product Viewer</title>
-      <link href="http://localhost:4000/gainomax" rel="alternate" type="text/html" title="Product Viewer" />
-      <published>2018-07-27T12:00:00+02:00</published>
-      <updated>2018-07-27T12:00:00+02:00</updated>
-      <id>http://localhost:4000/gainomax</id>
-      <content type="html" xml:base="http://localhost:4000/gainomax">&lt;style&gt;
-#c {
-  width: 100%;
-  height: 100%;
-  display: block;
-}
-&lt;/style&gt;
-
-&lt;p&gt;With my work at NORM I noticed that we did not have a way to display single products in 3D, not in a store but in a survey question or similiar. So I decided to build a quick way to display products in our surveys. This had to be light weight and device agnostic.&lt;/p&gt;
-
-&lt;p&gt;I found Three.js to be the best option for this.
-So I made the below viewer, it was quite easy to get started and building a simple viewer in Three.js.&lt;/p&gt;
-
-&lt;p&gt;As Three.js and 3D for web matures I see that this can be enhanced with alot more features.&lt;/p&gt;
-
-&lt;p&gt;The Gainomax shake is just a test product that I created using Photogrammetry.
-I wanted to see if photogrammetry could be a method for creating 3D products instead of modeling them from scratch.&lt;/p&gt;
-
-&lt;div id=&quot;gooey&quot;&gt;
-&lt;span class=&quot;dot&quot;&gt;&lt;/span&gt;
-  &lt;div class=&quot;dots&quot;&gt;
-    &lt;span&gt;&lt;/span&gt;
-    &lt;span&gt;&lt;/span&gt;
-    &lt;span&gt;&lt;/span&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-
-&lt;canvas id=&quot;c&quot;&gt;&lt;/canvas&gt;</content>
-
-      
-      
-      
-      
-      
-
-      <author>
-          <name>Fredrik Johansson</name>
-        
-        
-      </author>
-
-      
-
-      
-        <category term="portfolio" />
-      
-
-      
-        <summary type="html"></summary>
-      
-
-      
-      
-    </entry>
-  
-    <entry>
       <title type="html">Engagement ring</title>
       <link href="http://localhost:4000/the-ring" rel="alternate" type="text/html" title="Engagement ring" />
-      <published>2018-07-27T12:00:00+02:00</published>
-      <updated>2018-07-27T12:00:00+02:00</updated>
+      <published>2019-07-27T12:00:00+02:00</published>
+      <updated>2019-07-27T12:00:00+02:00</updated>
       <id>http://localhost:4000/the-ring</id>
       <content type="html" xml:base="http://localhost:4000/the-ring">&lt;h1 id=&quot;its-time-to-grow-up&quot;&gt;It´s time to grow up!&lt;/h1&gt;
 
@@ -149,50 +88,6 @@ Check out the JewelCraft github!&lt;br /&gt;
 
       
         <summary type="html">It´s time to grow up!</summary>
-      
-
-      
-      
-    </entry>
-  
-    <entry>
-      <title type="html">Test Drive Unlimited 2</title>
-      <link href="http://localhost:4000/tdu" rel="alternate" type="text/html" title="Test Drive Unlimited 2" />
-      <published>2017-07-27T12:00:00+02:00</published>
-      <updated>2017-07-27T12:00:00+02:00</updated>
-      <id>http://localhost:4000/tdu</id>
-      <content type="html" xml:base="http://localhost:4000/tdu">&lt;p&gt;As an intern in Lyon, France, I was responsible for designing various areas in the game “Test Drive Unlimited 2”. Making sure areas were more intriguing and aligned with the other areas inside the game.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;assets/images/tdu/Deadend.jpg&quot; alt=&quot;alt text&quot; title=&quot; &quot; /&gt;
-&lt;img src=&quot;assets/images/tdu/DeadendFolioColor.jpg&quot; alt=&quot;alt text&quot; title=&quot; &quot; /&gt;
-&lt;img src=&quot;assets/images/tdu/Farm.jpg&quot; alt=&quot;alt text&quot; title=&quot; &quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;assets/images/tdu/hillside_pano.jpg&quot; alt=&quot;alt text&quot; title=&quot; &quot; /&gt;
-&lt;img src=&quot;assets/images/tdu/RondPointPanoColor.jpg&quot; alt=&quot;alt text&quot; title=&quot; &quot; /&gt;
-&lt;img src=&quot;assets/images/tdu/Roundabout_1.jpg&quot; alt=&quot;alt text&quot; title=&quot; &quot; /&gt;&lt;/p&gt;
-
-&lt;iframe src=&quot;https://www.youtube.com/embed/S-lNSBX5FCE&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;</content>
-
-      
-      
-      
-      
-      
-
-      <author>
-          <name>Fredrik Johansson</name>
-        
-        
-      </author>
-
-      
-
-      
-        <category term="portfolio" />
-      
-
-      
-        <summary type="html">As an intern in Lyon, France, I was responsible for designing various areas in the game “Test Drive Unlimited 2”. Making sure areas were more intriguing and aligned with the other areas inside the game.</summary>
       
 
       
@@ -299,10 +194,113 @@ The text though worked, but with a screen-space canvas the text would have given
     </entry>
   
     <entry>
+      <title type="html">NORM</title>
+      <link href="http://localhost:4000/norm" rel="alternate" type="text/html" title="NORM" />
+      <published>2012-07-01T12:00:00+02:00</published>
+      <updated>2012-07-01T12:00:00+02:00</updated>
+      <id>http://localhost:4000/norm</id>
+      <content type="html" xml:base="http://localhost:4000/norm">&lt;p&gt;Here, I got the opportunity to apply my competence within game development on the market research industry. With clients such as FMCG companies like Nestlé, Unilever etc. we performed quantitative, web-based user tests for new concepts, new designs, brand repositioning projects, and more. I was part of the team that built all the surveys, and also solely responsible for all 3D graphical layout. I was employed specifically for my background in game development and the go-to guy for 3D solutions. I created virtual 3D stores like pharmacies and grocery stores when clients had new and innovative store concepts that they wanted to test on end-consumers. I also spearheaded the in-house development of 3D, developing new ways of virtualizing shopper experience at point-of-purchase using VR &amp;amp; 3D.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;assets/images/norm/beer_shelf.png&quot; alt=&quot;alt text&quot; title=&quot; &quot; /&gt;
+&lt;img src=&quot;assets/images/norm/bonus_shelf.png&quot; alt=&quot;alt text&quot; title=&quot; &quot; /&gt;
+&lt;img src=&quot;assets/images/norm/collage_5.png&quot; alt=&quot;alt text&quot; title=&quot; &quot; /&gt;
+&lt;img src=&quot;assets/images/norm/Lego_5.png&quot; alt=&quot;alt text&quot; title=&quot; &quot; /&gt;
+&lt;img src=&quot;assets/images/norm/Lego4.png&quot; alt=&quot;alt text&quot; title=&quot; &quot; /&gt;&lt;/p&gt;
+
+&lt;iframe width=&quot;853&quot; height=&quot;480&quot; src=&quot;https://www.youtube.com/embed/p6WzSJrBPQU&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>Fredrik Johansson</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="portfolio" />
+      
+
+      
+        <summary type="html">Here, I got the opportunity to apply my competence within game development on the market research industry. With clients such as FMCG companies like Nestlé, Unilever etc. we performed quantitative, web-based user tests for new concepts, new designs, brand repositioning projects, and more. I was part of the team that built all the surveys, and also solely responsible for all 3D graphical layout. I was employed specifically for my background in game development and the go-to guy for 3D solutions. I created virtual 3D stores like pharmacies and grocery stores when clients had new and innovative store concepts that they wanted to test on end-consumers. I also spearheaded the in-house development of 3D, developing new ways of virtualizing shopper experience at point-of-purchase using VR &amp;amp; 3D.</summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
+      <title type="html">Product Viewer</title>
+      <link href="http://localhost:4000/gainomax" rel="alternate" type="text/html" title="Product Viewer" />
+      <published>2012-06-01T12:00:00+02:00</published>
+      <updated>2012-06-01T12:00:00+02:00</updated>
+      <id>http://localhost:4000/gainomax</id>
+      <content type="html" xml:base="http://localhost:4000/gainomax">&lt;style&gt;
+#c {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+&lt;/style&gt;
+
+&lt;p&gt;With my work at NORM I noticed that we did not have a way to display single products in 3D, not in a store but in a survey question or similiar. So I decided to build a quick way to display products in our surveys. This had to be light weight and device agnostic.&lt;/p&gt;
+
+&lt;p&gt;I found Three.js to be the best option for this.
+So I made the below viewer, it was quite easy to get started and building a simple viewer in Three.js.&lt;/p&gt;
+
+&lt;p&gt;As Three.js and 3D for web matures I see that this can be enhanced with alot more features.&lt;/p&gt;
+
+&lt;p&gt;The Gainomax shake is just a test product that I created using Photogrammetry.
+I wanted to see if photogrammetry could be a method for creating 3D products instead of modeling them from scratch.&lt;/p&gt;
+
+&lt;div id=&quot;gooey&quot;&gt;
+&lt;span class=&quot;dot&quot;&gt;&lt;/span&gt;
+  &lt;div class=&quot;dots&quot;&gt;
+    &lt;span&gt;&lt;/span&gt;
+    &lt;span&gt;&lt;/span&gt;
+    &lt;span&gt;&lt;/span&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;canvas id=&quot;c&quot;&gt;&lt;/canvas&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>Fredrik Johansson</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="portfolio" />
+      
+
+      
+        <summary type="html"></summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
       <title type="html">The Showdown Effect</title>
       <link href="http://localhost:4000/showdown" rel="alternate" type="text/html" title="The Showdown Effect" />
-      <published>2017-07-27T12:00:00+02:00</published>
-      <updated>2017-07-27T12:00:00+02:00</updated>
+      <published>2011-07-01T12:00:00+02:00</published>
+      <updated>2011-07-01T12:00:00+02:00</updated>
       <id>http://localhost:4000/showdown</id>
       <content type="html" xml:base="http://localhost:4000/showdown">&lt;p&gt;Part of the core team at the launch of the computer game “Showdown Effect”. I was responsible for mocking up levels and prototyping art assets. During the alpha version I had the responsibility for various 3D models and assets.&lt;/p&gt;
 
@@ -342,20 +340,22 @@ The text though worked, but with a screen-space canvas the text would have given
     </entry>
   
     <entry>
-      <title type="html">NORM</title>
-      <link href="http://localhost:4000/norm" rel="alternate" type="text/html" title="NORM" />
-      <published>2017-07-27T12:00:00+02:00</published>
-      <updated>2017-07-27T12:00:00+02:00</updated>
-      <id>http://localhost:4000/norm</id>
-      <content type="html" xml:base="http://localhost:4000/norm">&lt;p&gt;Here, I got the opportunity to apply my competence within game development on the market research industry. With clients such as FMCG companies like Nestlé, Unilever etc. we performed quantitative, web-based user tests for new concepts, new designs, brand repositioning projects, and more. I was part of the team that built all the surveys, and also solely responsible for all 3D graphical layout. I was employed specifically for my background in game development and the go-to guy for 3D solutions. I created virtual 3D stores like pharmacies and grocery stores when clients had new and innovative store concepts that they wanted to test on end-consumers. I also spearheaded the in-house development of 3D, developing new ways of virtualizing shopper experience at point-of-purchase using VR &amp;amp; 3D.&lt;/p&gt;
+      <title type="html">Test Drive Unlimited 2</title>
+      <link href="http://localhost:4000/tdu" rel="alternate" type="text/html" title="Test Drive Unlimited 2" />
+      <published>2010-05-01T12:00:00+02:00</published>
+      <updated>2010-05-01T12:00:00+02:00</updated>
+      <id>http://localhost:4000/tdu</id>
+      <content type="html" xml:base="http://localhost:4000/tdu">&lt;p&gt;As an intern in Lyon, France, I was responsible for designing various areas in the game “Test Drive Unlimited 2”. Making sure areas were more intriguing and aligned with the other areas inside the game.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;assets/images/norm/beer_shelf.png&quot; alt=&quot;alt text&quot; title=&quot; &quot; /&gt;
-&lt;img src=&quot;assets/images/norm/bonus_shelf.png&quot; alt=&quot;alt text&quot; title=&quot; &quot; /&gt;
-&lt;img src=&quot;assets/images/norm/collage_5.png&quot; alt=&quot;alt text&quot; title=&quot; &quot; /&gt;
-&lt;img src=&quot;assets/images/norm/Lego_5.png&quot; alt=&quot;alt text&quot; title=&quot; &quot; /&gt;
-&lt;img src=&quot;assets/images/norm/Lego4.png&quot; alt=&quot;alt text&quot; title=&quot; &quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;assets/images/tdu/Deadend.jpg&quot; alt=&quot;alt text&quot; title=&quot; &quot; /&gt;
+&lt;img src=&quot;assets/images/tdu/DeadendFolioColor.jpg&quot; alt=&quot;alt text&quot; title=&quot; &quot; /&gt;
+&lt;img src=&quot;assets/images/tdu/Farm.jpg&quot; alt=&quot;alt text&quot; title=&quot; &quot; /&gt;&lt;/p&gt;
 
-&lt;iframe width=&quot;853&quot; height=&quot;480&quot; src=&quot;https://www.youtube.com/embed/p6WzSJrBPQU&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;</content>
+&lt;p&gt;&lt;img src=&quot;assets/images/tdu/hillside_pano.jpg&quot; alt=&quot;alt text&quot; title=&quot; &quot; /&gt;
+&lt;img src=&quot;assets/images/tdu/RondPointPanoColor.jpg&quot; alt=&quot;alt text&quot; title=&quot; &quot; /&gt;
+&lt;img src=&quot;assets/images/tdu/Roundabout_1.jpg&quot; alt=&quot;alt text&quot; title=&quot; &quot; /&gt;&lt;/p&gt;
+
+&lt;iframe src=&quot;https://www.youtube.com/embed/S-lNSBX5FCE&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;</content>
 
       
       
@@ -376,7 +376,7 @@ The text though worked, but with a screen-space canvas the text would have given
       
 
       
-        <summary type="html">Here, I got the opportunity to apply my competence within game development on the market research industry. With clients such as FMCG companies like Nestlé, Unilever etc. we performed quantitative, web-based user tests for new concepts, new designs, brand repositioning projects, and more. I was part of the team that built all the surveys, and also solely responsible for all 3D graphical layout. I was employed specifically for my background in game development and the go-to guy for 3D solutions. I created virtual 3D stores like pharmacies and grocery stores when clients had new and innovative store concepts that they wanted to test on end-consumers. I also spearheaded the in-house development of 3D, developing new ways of virtualizing shopper experience at point-of-purchase using VR &amp;amp; 3D.</summary>
+        <summary type="html">As an intern in Lyon, France, I was responsible for designing various areas in the game “Test Drive Unlimited 2”. Making sure areas were more intriguing and aligned with the other areas inside the game.</summary>
       
 
       
@@ -386,8 +386,8 @@ The text though worked, but with a screen-space canvas the text would have given
     <entry>
       <title type="html">Highpoly project</title>
       <link href="http://localhost:4000/highpoly-piece" rel="alternate" type="text/html" title="Highpoly project" />
-      <published>2017-07-27T12:00:00+02:00</published>
-      <updated>2017-07-27T12:00:00+02:00</updated>
+      <published>2010-01-01T11:00:00+01:00</published>
+      <updated>2010-01-01T11:00:00+01:00</updated>
       <id>http://localhost:4000/highpoly-piece</id>
       <content type="html" xml:base="http://localhost:4000/highpoly-piece">&lt;p&gt;A school project I did, building a highpoly and focusing on hardsurfaces.&lt;/p&gt;
 

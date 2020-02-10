@@ -4,7 +4,7 @@
   <generator uri="https://jekyllrb.com/" version="3.7.4">Jekyll</generator>
   <link href="http://localhost:4000/tag/post/feed.xml" rel="self" type="application/atom+xml" />
   <link href="http://localhost:4000/" rel="alternate" type="text/html" />
-  <updated>2020-02-03T21:48:36+01:00</updated>
+  <updated>2020-02-10T14:38:52+01:00</updated>
   <id>http://localhost:4000/tag/post/feed.xml</id>
 
   
@@ -34,8 +34,8 @@
     <entry>
       <title type="html">Engagement ring</title>
       <link href="http://localhost:4000/the-ring" rel="alternate" type="text/html" title="Engagement ring" />
-      <published>2018-07-27T12:00:00+02:00</published>
-      <updated>2018-07-27T12:00:00+02:00</updated>
+      <published>2019-07-27T12:00:00+02:00</published>
+      <updated>2019-07-27T12:00:00+02:00</updated>
       <id>http://localhost:4000/the-ring</id>
       <content type="html" xml:base="http://localhost:4000/the-ring">&lt;h1 id=&quot;its-time-to-grow-up&quot;&gt;It´s time to grow up!&lt;/h1&gt;
 

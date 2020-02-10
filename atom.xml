@@ -14,31 +14,10 @@
 
 </description>
         
-        <pubDate>Fri, 27 Jul 2018 12:00:00 +0200</pubDate>
+        <pubDate>Sat, 27 Jul 2019 12:00:00 +0200</pubDate>
         <link>
         http://localhost:4000/the-ring</link>
         <guid isPermaLink="true">http://localhost:4000/the-ring</guid>
-      </item>
-      
-    
-      
-      <item>
-        <title>Product Viewer</title>
-        
-          <description>&lt;style&gt;
-#c {
-  width: 100%;
-  height: 100%;
-  display: block;
-}
-&lt;/style&gt;
-
-</description>
-        
-        <pubDate>Fri, 27 Jul 2018 12:00:00 +0200</pubDate>
-        <link>
-        http://localhost:4000/gainomax</link>
-        <guid isPermaLink="true">http://localhost:4000/gainomax</guid>
       </item>
       
     
@@ -74,16 +53,37 @@
     
       
       <item>
-        <title>Test Drive Unlimited 2</title>
+        <title>NORM</title>
         
-          <description>&lt;p&gt;As an intern in Lyon, France, I was responsible for designing various areas in the game “Test Drive Unlimited 2”. Making sure areas were more intriguing and aligned with the other areas inside the game.&lt;/p&gt;
+          <description>&lt;p&gt;Here, I got the opportunity to apply my competence within game development on the market research industry. With clients such as FMCG companies like Nestlé, Unilever etc. we performed quantitative, web-based user tests for new concepts, new designs, brand repositioning projects, and more. I was part of the team that built all the surveys, and also solely responsible for all 3D graphical layout. I was employed specifically for my background in game development and the go-to guy for 3D solutions. I created virtual 3D stores like pharmacies and grocery stores when clients had new and innovative store concepts that they wanted to test on end-consumers. I also spearheaded the in-house development of 3D, developing new ways of virtualizing shopper experience at point-of-purchase using VR &amp;amp; 3D.&lt;/p&gt;
 
 </description>
         
-        <pubDate>Thu, 27 Jul 2017 12:00:00 +0200</pubDate>
+        <pubDate>Sun, 01 Jul 2012 12:00:00 +0200</pubDate>
         <link>
-        http://localhost:4000/tdu</link>
-        <guid isPermaLink="true">http://localhost:4000/tdu</guid>
+        http://localhost:4000/norm</link>
+        <guid isPermaLink="true">http://localhost:4000/norm</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Product Viewer</title>
+        
+          <description>&lt;style&gt;
+#c {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+&lt;/style&gt;
+
+</description>
+        
+        <pubDate>Fri, 01 Jun 2012 12:00:00 +0200</pubDate>
+        <link>
+        http://localhost:4000/gainomax</link>
+        <guid isPermaLink="true">http://localhost:4000/gainomax</guid>
       </item>
       
     
@@ -95,7 +95,7 @@
 
 </description>
         
-        <pubDate>Thu, 27 Jul 2017 12:00:00 +0200</pubDate>
+        <pubDate>Fri, 01 Jul 2011 12:00:00 +0200</pubDate>
         <link>
         http://localhost:4000/showdown</link>
         <guid isPermaLink="true">http://localhost:4000/showdown</guid>
@@ -104,16 +104,16 @@
     
       
       <item>
-        <title>NORM</title>
+        <title>Test Drive Unlimited 2</title>
         
-          <description>&lt;p&gt;Here, I got the opportunity to apply my competence within game development on the market research industry. With clients such as FMCG companies like Nestlé, Unilever etc. we performed quantitative, web-based user tests for new concepts, new designs, brand repositioning projects, and more. I was part of the team that built all the surveys, and also solely responsible for all 3D graphical layout. I was employed specifically for my background in game development and the go-to guy for 3D solutions. I created virtual 3D stores like pharmacies and grocery stores when clients had new and innovative store concepts that they wanted to test on end-consumers. I also spearheaded the in-house development of 3D, developing new ways of virtualizing shopper experience at point-of-purchase using VR &amp;amp; 3D.&lt;/p&gt;
+          <description>&lt;p&gt;As an intern in Lyon, France, I was responsible for designing various areas in the game “Test Drive Unlimited 2”. Making sure areas were more intriguing and aligned with the other areas inside the game.&lt;/p&gt;
 
 </description>
         
-        <pubDate>Thu, 27 Jul 2017 12:00:00 +0200</pubDate>
+        <pubDate>Sat, 01 May 2010 12:00:00 +0200</pubDate>
         <link>
-        http://localhost:4000/norm</link>
-        <guid isPermaLink="true">http://localhost:4000/norm</guid>
+        http://localhost:4000/tdu</link>
+        <guid isPermaLink="true">http://localhost:4000/tdu</guid>
       </item>
       
     
@@ -125,7 +125,7 @@
 
 </description>
         
-        <pubDate>Thu, 27 Jul 2017 12:00:00 +0200</pubDate>
+        <pubDate>Fri, 01 Jan 2010 11:00:00 +0100</pubDate>
         <link>
         http://localhost:4000/highpoly-piece</link>
         <guid isPermaLink="true">http://localhost:4000/highpoly-piece</guid>
