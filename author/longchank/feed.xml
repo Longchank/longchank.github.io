@@ -4,7 +4,7 @@
   <generator uri="https://jekyllrb.com/" version="3.7.4">Jekyll</generator>
   <link href="http://localhost:4000/author/longchank/feed.xml" rel="self" type="application/atom+xml" />
   <link href="http://localhost:4000/" rel="alternate" type="text/html" />
-  <updated>2020-02-13T13:41:50+01:00</updated>
+  <updated>2020-02-14T17:35:08+01:00</updated>
   <id>http://localhost:4000/author/longchank/feed.xml</id>
 
   
@@ -100,16 +100,16 @@ I then proceed to build the various components inside Unity UI and connect the c
 The idea of the UI is to have everything data-driven. Nothing should be static, nothing in the UI should be locked inside Unity. Our backend should control everything inside and outside of the UI.
 The biggest issue we see there is the Unity UI layout, this almost has to be done in Unity and strictly in Unity. However, the components with text, color, icons and so on are quite easy to control via the backend.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;assets/images/ix/properties.jpg&quot; alt=&quot;alt text&quot; title=&quot; &quot; /&gt;
-&lt;img src=&quot;assets/images/ix/filters.jpg&quot; alt=&quot;alt text&quot; title=&quot; &quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;assets/images/IX/properties.jpg&quot; alt=&quot;alt text&quot; title=&quot; &quot; /&gt;
+&lt;img src=&quot;assets/images/IX/filters.jpg&quot; alt=&quot;alt text&quot; title=&quot; &quot; /&gt;&lt;/p&gt;
 
 &lt;h1 id=&quot;client-projects&quot;&gt;Client Projects&lt;/h1&gt;
 
 &lt;h2 id=&quot;svensk-byggtjänst&quot;&gt;Svensk Byggtjänst&lt;/h2&gt;
 
 &lt;p&gt;With Svensk Byggtjänst we had project to show CoClass, a metadata structure for actual objects in urban environments. Screenshots and video from HoloLens.
-&lt;img src=&quot;assets/images/ix/coclass.jpg&quot; alt=&quot;alt text&quot; title=&quot;Trashcan with metadata on Odenplan&quot; /&gt;
-&lt;img src=&quot;assets/images/ix/coclass2.jpg&quot; alt=&quot;alt text&quot; title=&quot;Trashcan with metadata on Odenplan&quot; /&gt;&lt;/p&gt;
+&lt;img src=&quot;assets/images/IX/coclass.jpg&quot; alt=&quot;alt text&quot; title=&quot;Trashcan with metadata on Odenplan&quot; /&gt;
+&lt;img src=&quot;assets/images/IX/coclass2.jpg&quot; alt=&quot;alt text&quot; title=&quot;Trashcan with metadata on Odenplan&quot; /&gt;&lt;/p&gt;
 
 &lt;iframe src=&quot;https://www.youtube.com/embed/okuxTNScET0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
 
@@ -138,7 +138,7 @@ Showing how pliable our application is and that can be used for many things. For
 &lt;/div&gt;
 &lt;/div&gt;
 
-&lt;p&gt;&lt;img src=&quot;assets/images/ix/F1.jpg&quot; alt=&quot;alt text&quot; title=&quot;Example image of a tire&quot; /&gt;
+&lt;p&gt;&lt;img src=&quot;assets/images/IX/F1.jpg&quot; alt=&quot;alt text&quot; title=&quot;Example image of a tire&quot; /&gt;
 Example of how the tire would look like in all its parts.&lt;/p&gt;
 
 &lt;h2 id=&quot;telia&quot;&gt;Telia&lt;/h2&gt;

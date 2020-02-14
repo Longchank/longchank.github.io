@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.7.4">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-02-13T13:41:50+01:00</updated><id>http://localhost:4000/</id><title type="html">Longchank’s Blogfolio</title><subtitle>A blog or a portfolio or even both!</subtitle><entry><title type="html">Professor Murphy’s Wooden Puzzle</title><link href="http://localhost:4000/professor-murphys-cube" rel="alternate" type="text/html" title="Professor Murphy's Wooden Puzzle" /><published>2020-02-01T11:00:00+01:00</published><updated>2020-02-01T11:00:00+01:00</updated><id>http://localhost:4000/professor-murphys-cube</id><content type="html" xml:base="http://localhost:4000/professor-murphys-cube">&lt;p&gt;An AR step-by-step guide for a puzzle.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.7.4">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-02-14T17:35:08+01:00</updated><id>http://localhost:4000/</id><title type="html">Longchank’s Blogfolio</title><subtitle>A blog or a portfolio or even both!</subtitle><entry><title type="html">Professor Murphy’s Wooden Puzzle</title><link href="http://localhost:4000/professor-murphys-cube" rel="alternate" type="text/html" title="Professor Murphy's Wooden Puzzle" /><published>2020-02-01T11:00:00+01:00</published><updated>2020-02-01T11:00:00+01:00</updated><id>http://localhost:4000/professor-murphys-cube</id><content type="html" xml:base="http://localhost:4000/professor-murphys-cube">&lt;p&gt;An AR step-by-step guide for a puzzle.&lt;/p&gt;
 
 &lt;p&gt;I have been wanting to see how a step by step guide would look and feel like in AR. So using the puzzle i had at home i created this AR guide for how to solve it.
 Since I have been working alot in Playmaker, a visual scripting tool for Unity. I did this fully in Playmaker, with only little code to connect ARFoundation with Playmaker.
@@ -27,16 +27,16 @@ I then proceed to build the various components inside Unity UI and connect the c
 The idea of the UI is to have everything data-driven. Nothing should be static, nothing in the UI should be locked inside Unity. Our backend should control everything inside and outside of the UI.
 The biggest issue we see there is the Unity UI layout, this almost has to be done in Unity and strictly in Unity. However, the components with text, color, icons and so on are quite easy to control via the backend.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;assets/images/ix/properties.jpg&quot; alt=&quot;alt text&quot; title=&quot; &quot; /&gt;
-&lt;img src=&quot;assets/images/ix/filters.jpg&quot; alt=&quot;alt text&quot; title=&quot; &quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;assets/images/IX/properties.jpg&quot; alt=&quot;alt text&quot; title=&quot; &quot; /&gt;
+&lt;img src=&quot;assets/images/IX/filters.jpg&quot; alt=&quot;alt text&quot; title=&quot; &quot; /&gt;&lt;/p&gt;
 
 &lt;h1 id=&quot;client-projects&quot;&gt;Client Projects&lt;/h1&gt;
 
 &lt;h2 id=&quot;svensk-byggtjänst&quot;&gt;Svensk Byggtjänst&lt;/h2&gt;
 
 &lt;p&gt;With Svensk Byggtjänst we had project to show CoClass, a metadata structure for actual objects in urban environments. Screenshots and video from HoloLens.
-&lt;img src=&quot;assets/images/ix/coclass.jpg&quot; alt=&quot;alt text&quot; title=&quot;Trashcan with metadata on Odenplan&quot; /&gt;
-&lt;img src=&quot;assets/images/ix/coclass2.jpg&quot; alt=&quot;alt text&quot; title=&quot;Trashcan with metadata on Odenplan&quot; /&gt;&lt;/p&gt;
+&lt;img src=&quot;assets/images/IX/coclass.jpg&quot; alt=&quot;alt text&quot; title=&quot;Trashcan with metadata on Odenplan&quot; /&gt;
+&lt;img src=&quot;assets/images/IX/coclass2.jpg&quot; alt=&quot;alt text&quot; title=&quot;Trashcan with metadata on Odenplan&quot; /&gt;&lt;/p&gt;
 
 &lt;iframe src=&quot;https://www.youtube.com/embed/okuxTNScET0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
 
@@ -65,7 +65,7 @@ Showing how pliable our application is and that can be used for many things. For
 &lt;/div&gt;
 &lt;/div&gt;
 
-&lt;p&gt;&lt;img src=&quot;assets/images/ix/F1.jpg&quot; alt=&quot;alt text&quot; title=&quot;Example image of a tire&quot; /&gt;
+&lt;p&gt;&lt;img src=&quot;assets/images/IX/F1.jpg&quot; alt=&quot;alt text&quot; title=&quot;Example image of a tire&quot; /&gt;
 Example of how the tire would look like in all its parts.&lt;/p&gt;
 
 &lt;h2 id=&quot;telia&quot;&gt;Telia&lt;/h2&gt;
