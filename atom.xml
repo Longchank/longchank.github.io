@@ -8,6 +8,36 @@
     
       
       <item>
+        <title>Professor Murphy's Wooden Puzzle</title>
+        
+          <description>&lt;p&gt;An AR step-by-step guide for a puzzle.&lt;/p&gt;
+
+</description>
+        
+        <pubDate>Sat, 01 Feb 2020 11:00:00 +0100</pubDate>
+        <link>
+        http://localhost:4000/professor-murphys-cube</link>
+        <guid isPermaLink="true">http://localhost:4000/professor-murphys-cube</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Information Experience</title>
+        
+          <description>&lt;p&gt;Some of our projects at IX&lt;/p&gt;
+
+</description>
+        
+        <pubDate>Wed, 01 Jan 2020 11:00:00 +0100</pubDate>
+        <link>
+        http://localhost:4000/IX</link>
+        <guid isPermaLink="true">http://localhost:4000/IX</guid>
+      </item>
+      
+    
+      
+      <item>
         <title>Engagement ring</title>
         
           <description>&lt;h1 id=&quot;its-time-to-grow-up&quot;&gt;It´s time to grow up!&lt;/h1&gt;
@@ -18,21 +48,6 @@
         <link>
         http://localhost:4000/the-ring</link>
         <guid isPermaLink="true">http://localhost:4000/the-ring</guid>
-      </item>
-      
-    
-      
-      <item>
-        <title>Professor Murphy's Wooden Puzzle</title>
-        
-          <description>&lt;p&gt;An AR step-by-step guide for a puzzle.&lt;/p&gt;
-
-</description>
-        
-        <pubDate>Thu, 27 Jul 2017 12:00:00 +0200</pubDate>
-        <link>
-        http://localhost:4000/professor-murphys-cube</link>
-        <guid isPermaLink="true">http://localhost:4000/professor-murphys-cube</guid>
       </item>
       
     

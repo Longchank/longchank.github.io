@@ -1,4 +1,83 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.7.4">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-02-10T14:38:52+01:00</updated><id>http://localhost:4000/</id><title type="html">Longchank’s Blogfolio</title><subtitle>A blog or a portfolio or even both!</subtitle><entry><title type="html">Engagement ring</title><link href="http://localhost:4000/the-ring" rel="alternate" type="text/html" title="Engagement ring" /><published>2019-07-27T12:00:00+02:00</published><updated>2019-07-27T12:00:00+02:00</updated><id>http://localhost:4000/the-ring</id><content type="html" xml:base="http://localhost:4000/the-ring">&lt;h1 id=&quot;its-time-to-grow-up&quot;&gt;It´s time to grow up!&lt;/h1&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.7.4">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-02-13T13:41:50+01:00</updated><id>http://localhost:4000/</id><title type="html">Longchank’s Blogfolio</title><subtitle>A blog or a portfolio or even both!</subtitle><entry><title type="html">Professor Murphy’s Wooden Puzzle</title><link href="http://localhost:4000/professor-murphys-cube" rel="alternate" type="text/html" title="Professor Murphy's Wooden Puzzle" /><published>2020-02-01T11:00:00+01:00</published><updated>2020-02-01T11:00:00+01:00</updated><id>http://localhost:4000/professor-murphys-cube</id><content type="html" xml:base="http://localhost:4000/professor-murphys-cube">&lt;p&gt;An AR step-by-step guide for a puzzle.&lt;/p&gt;
+
+&lt;p&gt;I have been wanting to see how a step by step guide would look and feel like in AR. So using the puzzle i had at home i created this AR guide for how to solve it.
+Since I have been working alot in Playmaker, a visual scripting tool for Unity. I did this fully in Playmaker, with only little code to connect ARFoundation with Playmaker.
+Below are some screenshots from the different statemachines i used to control the app. I used a controller for the context of the app then for each step of the puzzle i made a template statemachine that would be generic for each step. The generic template controls the text and the value of the step, so I could understand which step was the first and last step. Because on the first step and last step different tweens would happen.&lt;/p&gt;
+
+&lt;p&gt;The controller.
+&lt;img src=&quot;assets/images/murphy/controller.JPG&quot; alt=&quot;alt text&quot; title=&quot; Controller for the app &quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The template that is on each piece of the puzzle
+&lt;img src=&quot;assets/images/murphy/piece_template.JPG&quot; alt=&quot;alt text&quot; title=&quot; Statemachine for each piece &quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;graphics&quot;&gt;Graphics&lt;/h2&gt;
+
+&lt;p&gt;For the graphics I created UI sprites and built a world canvas that would be the way the user interacts with the steps.
+This was built with AR in mind, but due to the small size of the puzzle and the way the user would interact with the puzzle in real life it was not advantageous to use such a canvas. Therefore i added also the ability to swipe between each step, removing the obstacle of trying to tap a small world space button.
+The text though worked, but with a screen-space canvas the text would have given more clarity to each step.&lt;/p&gt;
+
+&lt;p&gt;For the 3D models i created them just by measuring each wooden block so it could be scale 1:1 in the app. Then I created a custom shader in Amplify Shader Editor, in which I could control both the color and alpha inside each step.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;assets/images/murphy/blockshader.JPG&quot; alt=&quot;alt text&quot; title=&quot; Simple shader &quot; /&gt;&lt;/p&gt;
+
+&lt;iframe src=&quot;https://www.youtube.com/embed/THSb6-kpNi0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;</content><author><name>Fredrik Johansson</name></author><category term="portfolio" /><summary type="html">An AR step-by-step guide for a puzzle.</summary></entry><entry><title type="html">Information Experience</title><link href="http://localhost:4000/IX" rel="alternate" type="text/html" title="Information Experience" /><published>2020-01-01T11:00:00+01:00</published><updated>2020-01-01T11:00:00+01:00</updated><id>http://localhost:4000/IX</id><content type="html" xml:base="http://localhost:4000/IX">&lt;p&gt;Some of our projects at IX&lt;/p&gt;
+
+&lt;p&gt;Our process is that we build the layouts in Adobe XD, so we can get a good feel, overall design and also build the different components of the UI in the app.
+I then proceed to build the various components inside Unity UI and connect the components to our backend via C# scripts.
+The idea of the UI is to have everything data-driven. Nothing should be static, nothing in the UI should be locked inside Unity. Our backend should control everything inside and outside of the UI.
+The biggest issue we see there is the Unity UI layout, this almost has to be done in Unity and strictly in Unity. However, the components with text, color, icons and so on are quite easy to control via the backend.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;assets/images/ix/properties.jpg&quot; alt=&quot;alt text&quot; title=&quot; &quot; /&gt;
+&lt;img src=&quot;assets/images/ix/filters.jpg&quot; alt=&quot;alt text&quot; title=&quot; &quot; /&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;client-projects&quot;&gt;Client Projects&lt;/h1&gt;
+
+&lt;h2 id=&quot;svensk-byggtjänst&quot;&gt;Svensk Byggtjänst&lt;/h2&gt;
+
+&lt;p&gt;With Svensk Byggtjänst we had project to show CoClass, a metadata structure for actual objects in urban environments. Screenshots and video from HoloLens.
+&lt;img src=&quot;assets/images/ix/coclass.jpg&quot; alt=&quot;alt text&quot; title=&quot;Trashcan with metadata on Odenplan&quot; /&gt;
+&lt;img src=&quot;assets/images/ix/coclass2.jpg&quot; alt=&quot;alt text&quot; title=&quot;Trashcan with metadata on Odenplan&quot; /&gt;&lt;/p&gt;
+
+&lt;iframe src=&quot;https://www.youtube.com/embed/okuxTNScET0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+
+&lt;h2 id=&quot;ericsson-mwc-2019&quot;&gt;Ericsson MWC 2019&lt;/h2&gt;
+
+&lt;p&gt;As a part of Ericsson 5G push we built a HoloPortation demo. Showcasing the how AR and 5G could be used in a future meetings with holographic calling. The holograms where in realtime streamed from one location to another via 5G. With HoloLens the people in the call could walk freely within the 3D camera range, getting a 3D representation of each other.&lt;/p&gt;
+
+&lt;div class=&quot;jekyll-twitter-plugin&quot;&gt;
+    &lt;div class=&quot;jekyll-twitter-plugin&quot;&gt;&lt;blockquote class=&quot;twitter-tweet&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;Visit us at MWC2019 to witness Holocomm: live demonstration of 3D immersive communications over &lt;a href=&quot;https://twitter.com/hashtag/5G?src=hash&amp;amp;ref_src=twsrc%5Etfw&quot;&gt;#5G&lt;/a&gt; &lt;a href=&quot;https://t.co/j3eAQFhZec&quot;&gt;https://t.co/j3eAQFhZec&lt;/a&gt; via &lt;a href=&quot;https://twitter.com/YouTube?ref_src=twsrc%5Etfw&quot;&gt;@YouTube&lt;/a&gt; &lt;a href=&quot;https://twitter.com/hashtag/MWC2019?src=hash&amp;amp;ref_src=twsrc%5Etfw&quot;&gt;#MWC2019&lt;/a&gt; &lt;a href=&quot;https://twitter.com/hashtag/Ericsson?src=hash&amp;amp;ref_src=twsrc%5Etfw&quot;&gt;#Ericsson&lt;/a&gt; &lt;a href=&quot;https://twitter.com/hashtag/ericsson?src=hash&amp;amp;ref_src=twsrc%5Etfw&quot;&gt;#ericsson&lt;/a&gt; &lt;a href=&quot;https://twitter.com/hashtag/EdgeComputing?src=hash&amp;amp;ref_src=twsrc%5Etfw&quot;&gt;#EdgeComputing&lt;/a&gt; &lt;a href=&quot;https://twitter.com/hashtag/5GisHere?src=hash&amp;amp;ref_src=twsrc%5Etfw&quot;&gt;#5GisHere&lt;/a&gt; &lt;a href=&quot;https://twitter.com/hashtag/AR?src=hash&amp;amp;ref_src=twsrc%5Etfw&quot;&gt;#AR&lt;/a&gt; &lt;a href=&quot;https://twitter.com/hashtag/VR?src=hash&amp;amp;ref_src=twsrc%5Etfw&quot;&gt;#VR&lt;/a&gt; &lt;a href=&quot;https://twitter.com/hashtag/Hololens?src=hash&amp;amp;ref_src=twsrc%5Etfw&quot;&gt;#Hololens&lt;/a&gt; &lt;a href=&quot;https://twitter.com/hashtag/AI?src=hash&amp;amp;ref_src=twsrc%5Etfw&quot;&gt;#AI&lt;/a&gt;&lt;/p&gt;&amp;mdash; Jasmeet Sethi (@JasmetSeth) &lt;a href=&quot;https://twitter.com/JasmetSeth/status/1100258036214566912?ref_src=twsrc%5Etfw&quot;&gt;February 26, 2019&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
+&lt;/div&gt;
+    &lt;div class=&quot;jekyll-twitter-plugin&quot;&gt;&lt;blockquote class=&quot;twitter-tweet&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;Meeting with the &lt;a href=&quot;https://twitter.com/hashtag/hologram?src=hash&amp;amp;ref_src=twsrc%5Etfw&quot;&gt;#hologram&lt;/a&gt; version of Carina, an &lt;a href=&quot;https://twitter.com/ericsson?ref_src=twsrc%5Etfw&quot;&gt;@ericsson&lt;/a&gt; employee, showcasing the endless possibilities with &lt;a href=&quot;https://twitter.com/hashtag/5G?src=hash&amp;amp;ref_src=twsrc%5Etfw&quot;&gt;#5G&lt;/a&gt;. Imagine meeting with family, clients or colleagues on the other side of the world but still in the same room. &lt;a href=&quot;https://twitter.com/hashtag/MWC2019?src=hash&amp;amp;ref_src=twsrc%5Etfw&quot;&gt;#MWC2019&lt;/a&gt; &lt;a href=&quot;https://twitter.com/hashtag/TechnologyForGood?src=hash&amp;amp;ref_src=twsrc%5Etfw&quot;&gt;#TechnologyForGood&lt;/a&gt; &lt;a href=&quot;https://t.co/HjkuCavs4I&quot;&gt;https://t.co/HjkuCavs4I&lt;/a&gt;&lt;/p&gt;&amp;mdash; Carolina Bocsi (@CarolinaBocsi) &lt;a href=&quot;https://twitter.com/CarolinaBocsi/status/1100432158575992832?ref_src=twsrc%5Etfw&quot;&gt;February 26, 2019&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
+&lt;/div&gt;
+    
+&lt;/div&gt;
+
+&lt;h2 id=&quot;ericsson-baharin&quot;&gt;Ericsson Baharin&lt;/h2&gt;
+
+&lt;p&gt;With Ericsson we used out BIM Viewer in a bit of a different way, we used it to show the insides of an F1 Car.
+Showing how pliable our application is and that can be used for many things. For this project we sourced assets and built animations that would fit with the assets.&lt;/p&gt;
+
+&lt;div class=&quot;jekyll-twitter-plugin&quot;&gt;
+    &lt;div class=&quot;jekyll-twitter-plugin&quot;&gt;&lt;blockquote class=&quot;twitter-tweet&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;Together with &lt;a href=&quot;https://twitter.com/Batelco?ref_src=twsrc%5Etfw&quot;&gt;@Batelco&lt;/a&gt; at the &lt;a href=&quot;https://twitter.com/hashtag/Bahrain?src=hash&amp;amp;ref_src=twsrc%5Etfw&quot;&gt;#Bahrain&lt;/a&gt; F1 Grand Prix, weÔÇÖre showing a new dimension to &lt;a href=&quot;https://twitter.com/hashtag/AR?src=hash&amp;amp;ref_src=twsrc%5Etfw&quot;&gt;#AR&lt;/a&gt; with this 3D Augmented Reality Car! We&amp;#39;re entering the 4th industrial revolution and here&amp;#39;s a glimpse into the future of the automotive industry. &lt;a href=&quot;https://t.co/SzfqGBSckF&quot;&gt;pic.twitter.com/SzfqGBSckF&lt;/a&gt;&lt;/p&gt;&amp;mdash; Ericsson (@ericsson) &lt;a href=&quot;https://twitter.com/ericsson/status/1114122354156818433?ref_src=twsrc%5Etfw&quot;&gt;April 5, 2019&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;p&gt;&lt;img src=&quot;assets/images/ix/F1.jpg&quot; alt=&quot;alt text&quot; title=&quot;Example image of a tire&quot; /&gt;
+Example of how the tire would look like in all its parts.&lt;/p&gt;
+
+&lt;h2 id=&quot;telia&quot;&gt;Telia&lt;/h2&gt;
+
+&lt;p&gt;With Telia we used BIM Viewer to view an event layout with metadata and measurements.
+Just for fun we added a couple of cubes to play with!&lt;/p&gt;
+
+&lt;div class=&quot;jekyll-twitter-plugin&quot;&gt;
+    &lt;div class=&quot;jekyll-twitter-plugin&quot;&gt;&lt;blockquote class=&quot;twitter-tweet&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;&lt;a href=&quot;https://twitter.com/hashtag/HoloLens?src=hash&amp;amp;ref_src=twsrc%5Etfw&quot;&gt;#HoloLens&lt;/a&gt; and iPads with &lt;a href=&quot;https://twitter.com/hashtag/ARKit?src=hash&amp;amp;ref_src=twsrc%5Etfw&quot;&gt;#ARKit&lt;/a&gt; in our shared interactive experience over 5G at the &lt;a href=&quot;https://twitter.com/TeliaCompany?ref_src=twsrc%5Etfw&quot;&gt;@TeliaCompany&lt;/a&gt; event this week &lt;a href=&quot;https://twitter.com/hashtag/5G?src=hash&amp;amp;ref_src=twsrc%5Etfw&quot;&gt;#5G&lt;/a&gt; &lt;a href=&quot;https://twitter.com/hashtag/MixedReality?src=hash&amp;amp;ref_src=twsrc%5Etfw&quot;&gt;#MixedReality&lt;/a&gt; &lt;a href=&quot;https://t.co/p5gkvEy4ME&quot;&gt;https://t.co/p5gkvEy4ME&lt;/a&gt;&lt;/p&gt;&amp;mdash; Information Experience (@inforexperience) &lt;a href=&quot;https://twitter.com/inforexperience/status/974730961219936257?ref_src=twsrc%5Etfw&quot;&gt;March 16, 2018&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
+&lt;/div&gt;
+&lt;/div&gt;</content><author><name>Fredrik Johansson</name></author><category term="portfolio" /><summary type="html">Some of our projects at IX</summary></entry><entry><title type="html">Engagement ring</title><link href="http://localhost:4000/the-ring" rel="alternate" type="text/html" title="Engagement ring" /><published>2019-07-27T12:00:00+02:00</published><updated>2019-07-27T12:00:00+02:00</updated><id>http://localhost:4000/the-ring</id><content type="html" xml:base="http://localhost:4000/the-ring">&lt;h1 id=&quot;its-time-to-grow-up&quot;&gt;It´s time to grow up!&lt;/h1&gt;
 
 &lt;h2 id=&quot;so-i-made-this-engagement-ring-in-blender&quot;&gt;So I made this engagement ring in Blender.&lt;/h2&gt;
 
@@ -27,29 +106,7 @@ Check out the JewelCraft github!&lt;br /&gt;
 
 &lt;p&gt;&lt;img src=&quot;assets/images/ring/inbox.jpg&quot; alt=&quot;alt text&quot; title=&quot; &quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;And just to be cool, I made the box as well. Walnut with leather/cotton pillows.&lt;/p&gt;</content><author><name>Fredrik Johansson</name></author><category term="post" /><summary type="html">It´s time to grow up!</summary></entry><entry><title type="html">Professor Murphy’s Wooden Puzzle</title><link href="http://localhost:4000/professor-murphys-cube" rel="alternate" type="text/html" title="Professor Murphy's Wooden Puzzle" /><published>2017-07-27T12:00:00+02:00</published><updated>2017-07-27T12:00:00+02:00</updated><id>http://localhost:4000/professor-murphys-cube</id><content type="html" xml:base="http://localhost:4000/professor-murphys-cube">&lt;p&gt;An AR step-by-step guide for a puzzle.&lt;/p&gt;
-
-&lt;p&gt;I have been wanting to see how a step by step guide would look and feel like in AR. So using the puzzle i had at home i created this AR guide for how to solve it.
-Since I have been working alot in Playmaker, a visual scripting tool for Unity. I did this fully in Playmaker, with only little code to connect ARFoundation with Playmaker.
-Below are some screenshots from the different statemachines i used to control the app. I used a controller for the context of the app then for each step of the puzzle i made a template statemachine that would be generic for each step. The generic template controls the text and the value of the step, so I could understand which step was the first and last step. Because on the first step and last step different tweens would happen.&lt;/p&gt;
-
-&lt;p&gt;The controller.
-&lt;img src=&quot;assets/images/murphy/controller.JPG&quot; alt=&quot;alt text&quot; title=&quot; Controller for the app &quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;The template that is on each piece of the puzzle
-&lt;img src=&quot;assets/images/murphy/piece_template.JPG&quot; alt=&quot;alt text&quot; title=&quot; Statemachine for each piece &quot; /&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;graphics&quot;&gt;Graphics&lt;/h2&gt;
-
-&lt;p&gt;For the graphics I created UI sprites and built a world canvas that would be the way the user interacts with the steps.
-This was built with AR in mind, but due to the small size of the puzzle and the way the user would interact with the puzzle in real life it was not advantageous to use such a canvas. Therefore i added also the ability to swipe between each step, removing the obstacle of trying to tap a small world space button.
-The text though worked, but with a screen-space canvas the text would have given more clarity to each step.&lt;/p&gt;
-
-&lt;p&gt;For the 3D models i created them just by measuring each wooden block so it could be scale 1:1 in the app. Then I created a custom shader in Amplify Shader Editor, in which I could control both the color and alpha inside each step.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;assets/images/murphy/blockshader.JPG&quot; alt=&quot;alt text&quot; title=&quot; Simple shader &quot; /&gt;&lt;/p&gt;
-
-&lt;iframe src=&quot;https://www.youtube.com/embed/THSb6-kpNi0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;</content><author><name>Fredrik Johansson</name></author><category term="portfolio" /><summary type="html">An AR step-by-step guide for a puzzle.</summary></entry><entry><title type="html">UDK Environment</title><link href="http://localhost:4000/udk-environement" rel="alternate" type="text/html" title="UDK Environment" /><published>2017-07-27T12:00:00+02:00</published><updated>2017-07-27T12:00:00+02:00</updated><id>http://localhost:4000/udk-environement</id><content type="html" xml:base="http://localhost:4000/udk-environement">&lt;p&gt;One of my early personal projects, I wanted to learn the UDK engine and it´s asset workflow.&lt;/p&gt;
+&lt;p&gt;And just to be cool, I made the box as well. Walnut with leather/cotton pillows.&lt;/p&gt;</content><author><name>Fredrik Johansson</name></author><category term="post" /><summary type="html">It´s time to grow up!</summary></entry><entry><title type="html">UDK Environment</title><link href="http://localhost:4000/udk-environement" rel="alternate" type="text/html" title="UDK Environment" /><published>2017-07-27T12:00:00+02:00</published><updated>2017-07-27T12:00:00+02:00</updated><id>http://localhost:4000/udk-environement</id><content type="html" xml:base="http://localhost:4000/udk-environement">&lt;p&gt;One of my early personal projects, I wanted to learn the UDK engine and it´s asset workflow.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;assets/images/work1/Beutyshot2.jpg&quot; alt=&quot;alt text&quot; title=&quot; &quot; /&gt;
 &lt;img src=&quot;assets/images/work1/Beutyshot3.jpg&quot; alt=&quot;alt text&quot; title=&quot; &quot; /&gt;
