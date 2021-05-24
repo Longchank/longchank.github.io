@@ -2,10 +2,10 @@
 
 <feed xmlns="http://www.w3.org/2005/Atom" >
   <generator uri="https://jekyllrb.com/" version="3.7.4">Jekyll</generator>
-  <link href="http://localhost:4000/author/longchank/feed.xml" rel="self" type="application/atom+xml" />
-  <link href="http://localhost:4000/" rel="alternate" type="text/html" />
-  <updated>2020-02-14T17:35:08+01:00</updated>
-  <id>http://localhost:4000/author/longchank/feed.xml</id>
+  <link href="/author/longchank/feed.xml" rel="self" type="application/atom+xml" />
+  <link href="/" rel="alternate" type="text/html" />
+  <updated>2021-05-24T21:53:49+02:00</updated>
+  <id>/author/longchank/feed.xml</id>
 
   
   
@@ -33,11 +33,11 @@
   
     <entry>
       <title type="html">Professor Murphy’s Wooden Puzzle</title>
-      <link href="http://localhost:4000/professor-murphys-cube" rel="alternate" type="text/html" title="Professor Murphy's Wooden Puzzle" />
+      <link href="/professor-murphys-cube.html" rel="alternate" type="text/html" title="Professor Murphy's Wooden Puzzle" />
       <published>2020-02-01T11:00:00+01:00</published>
       <updated>2020-02-01T11:00:00+01:00</updated>
-      <id>http://localhost:4000/professor-murphys-cube</id>
-      <content type="html" xml:base="http://localhost:4000/professor-murphys-cube">&lt;p&gt;An AR step-by-step guide for a puzzle.&lt;/p&gt;
+      <id>/professor-murphys-cube</id>
+      <content type="html" xml:base="/professor-murphys-cube.html">&lt;p&gt;An AR step-by-step guide for a puzzle.&lt;/p&gt;
 
 &lt;p&gt;I have been wanting to see how a step by step guide would look and feel like in AR. So using the puzzle i had at home i created this AR guide for how to solve it.
 Since I have been working alot in Playmaker, a visual scripting tool for Unity. I did this fully in Playmaker, with only little code to connect ARFoundation with Playmaker.
@@ -89,11 +89,11 @@ The text though worked, but with a screen-space canvas the text would have given
   
     <entry>
       <title type="html">Information Experience</title>
-      <link href="http://localhost:4000/IX" rel="alternate" type="text/html" title="Information Experience" />
+      <link href="/IX.html" rel="alternate" type="text/html" title="Information Experience" />
       <published>2020-01-01T11:00:00+01:00</published>
       <updated>2020-01-01T11:00:00+01:00</updated>
-      <id>http://localhost:4000/IX</id>
-      <content type="html" xml:base="http://localhost:4000/IX">&lt;p&gt;Some of our projects at IX&lt;/p&gt;
+      <id>/IX</id>
+      <content type="html" xml:base="/IX.html">&lt;p&gt;Some of our projects at IX&lt;/p&gt;
 
 &lt;p&gt;Our process is that we build the layouts in Adobe XD, so we can get a good feel, overall design and also build the different components of the UI in the app.
 I then proceed to build the various components inside Unity UI and connect the components to our backend via C# scripts.
@@ -180,11 +180,11 @@ Just for fun we added a couple of cubes to play with!&lt;/p&gt;
   
     <entry>
       <title type="html">Engagement ring</title>
-      <link href="http://localhost:4000/the-ring" rel="alternate" type="text/html" title="Engagement ring" />
+      <link href="/the-ring.html" rel="alternate" type="text/html" title="Engagement ring" />
       <published>2019-07-27T12:00:00+02:00</published>
       <updated>2019-07-27T12:00:00+02:00</updated>
-      <id>http://localhost:4000/the-ring</id>
-      <content type="html" xml:base="http://localhost:4000/the-ring">&lt;h1 id=&quot;its-time-to-grow-up&quot;&gt;It´s time to grow up!&lt;/h1&gt;
+      <id>/the-ring</id>
+      <content type="html" xml:base="/the-ring.html">&lt;h1 id=&quot;its-time-to-grow-up&quot;&gt;It´s time to grow up!&lt;/h1&gt;
 
 &lt;h2 id=&quot;so-i-made-this-engagement-ring-in-blender&quot;&gt;So I made this engagement ring in Blender.&lt;/h2&gt;
 
@@ -243,11 +243,11 @@ Check out the JewelCraft github!&lt;br /&gt;
   
     <entry>
       <title type="html">UDK Environment</title>
-      <link href="http://localhost:4000/udk-environement" rel="alternate" type="text/html" title="UDK Environment" />
+      <link href="/udk-environement.html" rel="alternate" type="text/html" title="UDK Environment" />
       <published>2017-07-27T12:00:00+02:00</published>
       <updated>2017-07-27T12:00:00+02:00</updated>
-      <id>http://localhost:4000/udk-environement</id>
-      <content type="html" xml:base="http://localhost:4000/udk-environement">&lt;p&gt;One of my early personal projects, I wanted to learn the UDK engine and it´s asset workflow.&lt;/p&gt;
+      <id>/udk-environement</id>
+      <content type="html" xml:base="/udk-environement.html">&lt;p&gt;One of my early personal projects, I wanted to learn the UDK engine and it´s asset workflow.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;assets/images/work1/Beutyshot2.jpg&quot; alt=&quot;alt text&quot; title=&quot; &quot; /&gt;
 &lt;img src=&quot;assets/images/work1/Beutyshot3.jpg&quot; alt=&quot;alt text&quot; title=&quot; &quot; /&gt;
@@ -286,11 +286,11 @@ Check out the JewelCraft github!&lt;br /&gt;
   
     <entry>
       <title type="html">NORM</title>
-      <link href="http://localhost:4000/norm" rel="alternate" type="text/html" title="NORM" />
+      <link href="/norm.html" rel="alternate" type="text/html" title="NORM" />
       <published>2012-07-01T12:00:00+02:00</published>
       <updated>2012-07-01T12:00:00+02:00</updated>
-      <id>http://localhost:4000/norm</id>
-      <content type="html" xml:base="http://localhost:4000/norm">&lt;p&gt;Here, I got the opportunity to apply my competence within game development on the market research industry. With clients such as FMCG companies like Nestlé, Unilever etc. we performed quantitative, web-based user tests for new concepts, new designs, brand repositioning projects, and more. I was part of the team that built all the surveys, and also solely responsible for all 3D graphical layout. I was employed specifically for my background in game development and the go-to guy for 3D solutions. I created virtual 3D stores like pharmacies and grocery stores when clients had new and innovative store concepts that they wanted to test on end-consumers. I also spearheaded the in-house development of 3D, developing new ways of virtualizing shopper experience at point-of-purchase using VR &amp;amp; 3D.&lt;/p&gt;
+      <id>/norm</id>
+      <content type="html" xml:base="/norm.html">&lt;p&gt;Here, I got the opportunity to apply my competence within game development on the market research industry. With clients such as FMCG companies like Nestlé, Unilever etc. we performed quantitative, web-based user tests for new concepts, new designs, brand repositioning projects, and more. I was part of the team that built all the surveys, and also solely responsible for all 3D graphical layout. I was employed specifically for my background in game development and the go-to guy for 3D solutions. I created virtual 3D stores like pharmacies and grocery stores when clients had new and innovative store concepts that they wanted to test on end-consumers. I also spearheaded the in-house development of 3D, developing new ways of virtualizing shopper experience at point-of-purchase using VR &amp;amp; 3D.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;assets/images/norm/beer_shelf.png&quot; alt=&quot;alt text&quot; title=&quot; &quot; /&gt;
 &lt;img src=&quot;assets/images/norm/bonus_shelf.png&quot; alt=&quot;alt text&quot; title=&quot; &quot; /&gt;
@@ -328,11 +328,11 @@ Check out the JewelCraft github!&lt;br /&gt;
   
     <entry>
       <title type="html">Product Viewer</title>
-      <link href="http://localhost:4000/gainomax" rel="alternate" type="text/html" title="Product Viewer" />
+      <link href="/gainomax.html" rel="alternate" type="text/html" title="Product Viewer" />
       <published>2012-06-01T12:00:00+02:00</published>
       <updated>2012-06-01T12:00:00+02:00</updated>
-      <id>http://localhost:4000/gainomax</id>
-      <content type="html" xml:base="http://localhost:4000/gainomax">&lt;style&gt;
+      <id>/gainomax</id>
+      <content type="html" xml:base="/gainomax.html">&lt;style&gt;
 #c {
   width: 100%;
   height: 100%;
@@ -389,11 +389,11 @@ I wanted to see if photogrammetry could be a method for creating 3D products ins
   
     <entry>
       <title type="html">The Showdown Effect</title>
-      <link href="http://localhost:4000/showdown" rel="alternate" type="text/html" title="The Showdown Effect" />
+      <link href="/showdown.html" rel="alternate" type="text/html" title="The Showdown Effect" />
       <published>2011-07-01T12:00:00+02:00</published>
       <updated>2011-07-01T12:00:00+02:00</updated>
-      <id>http://localhost:4000/showdown</id>
-      <content type="html" xml:base="http://localhost:4000/showdown">&lt;p&gt;Part of the core team at the launch of the computer game “Showdown Effect”. I was responsible for mocking up levels and prototyping art assets. During the alpha version I had the responsibility for various 3D models and assets.&lt;/p&gt;
+      <id>/showdown</id>
+      <content type="html" xml:base="/showdown.html">&lt;p&gt;Part of the core team at the launch of the computer game “Showdown Effect”. I was responsible for mocking up levels and prototyping art assets. During the alpha version I had the responsibility for various 3D models and assets.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;assets/images/tse/melee_weapons.jpg&quot; alt=&quot;alt text&quot; title=&quot; &quot; /&gt;
 &lt;img src=&quot;assets/images/tse/props_001.jpg&quot; alt=&quot;alt text&quot; title=&quot; &quot; /&gt;
@@ -432,11 +432,11 @@ I wanted to see if photogrammetry could be a method for creating 3D products ins
   
     <entry>
       <title type="html">Test Drive Unlimited 2</title>
-      <link href="http://localhost:4000/tdu" rel="alternate" type="text/html" title="Test Drive Unlimited 2" />
+      <link href="/tdu.html" rel="alternate" type="text/html" title="Test Drive Unlimited 2" />
       <published>2010-05-01T12:00:00+02:00</published>
       <updated>2010-05-01T12:00:00+02:00</updated>
-      <id>http://localhost:4000/tdu</id>
-      <content type="html" xml:base="http://localhost:4000/tdu">&lt;p&gt;As an intern in Lyon, France, I was responsible for designing various areas in the game “Test Drive Unlimited 2”. Making sure areas were more intriguing and aligned with the other areas inside the game.&lt;/p&gt;
+      <id>/tdu</id>
+      <content type="html" xml:base="/tdu.html">&lt;p&gt;As an intern in Lyon, France, I was responsible for designing various areas in the game “Test Drive Unlimited 2”. Making sure areas were more intriguing and aligned with the other areas inside the game.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;assets/images/tdu/Deadend.jpg&quot; alt=&quot;alt text&quot; title=&quot; &quot; /&gt;
 &lt;img src=&quot;assets/images/tdu/DeadendFolioColor.jpg&quot; alt=&quot;alt text&quot; title=&quot; &quot; /&gt;
@@ -476,11 +476,11 @@ I wanted to see if photogrammetry could be a method for creating 3D products ins
   
     <entry>
       <title type="html">Highpoly project</title>
-      <link href="http://localhost:4000/highpoly-piece" rel="alternate" type="text/html" title="Highpoly project" />
+      <link href="/highpoly-piece.html" rel="alternate" type="text/html" title="Highpoly project" />
       <published>2010-01-01T11:00:00+01:00</published>
       <updated>2010-01-01T11:00:00+01:00</updated>
-      <id>http://localhost:4000/highpoly-piece</id>
-      <content type="html" xml:base="http://localhost:4000/highpoly-piece">&lt;p&gt;A school project I did, building a highpoly and focusing on hardsurfaces.&lt;/p&gt;
+      <id>/highpoly-piece</id>
+      <content type="html" xml:base="/highpoly-piece.html">&lt;p&gt;A school project I did, building a highpoly and focusing on hardsurfaces.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;assets/images/work2/Computer_1.jpg&quot; alt=&quot;alt text&quot; title=&quot; &quot; /&gt;
 &lt;img src=&quot;assets/images/work2/Computer_2.jpg&quot; alt=&quot;alt text&quot; title=&quot; &quot; /&gt;
